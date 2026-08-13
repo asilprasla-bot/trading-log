@@ -57,3 +57,4 @@ I'll continue monitoring this position for the progressive stop-loss/take-profit
 11:41 AM CDT | HOLD | — | — | — | — | No candidate passed both momentum+volume confirmation gates — skipping per rules rather than forcing a trade. 1 of 2 positions open ($10 MU), $10 of $20 daily risk used, $90 cash (above $80 floor). Will rescan next tick | —
 You've hit your session limit · resets 6:50pm (UTC)
 You've hit your session limit · resets 6:50pm (UTC)
+You've hit your session limit · resets 6:50pm (UTC)
