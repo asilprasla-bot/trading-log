@@ -70,3 +70,11 @@ Logged and committed. Current status: MU position held flat (+0.4%), no action n
 
 2:19 PM CDT | CHECK | — | — | — | — | Portfolio $90 cash, 1 position (MU, entry $960.06, now $961.49, +0.15%, no stop/profit trigger). SPY +0.72%, QQQ +1.29% (green, normal mode) | —
 2:19 PM CDT | HOLD | MU | $961.49 | — | — | Position essentially flat, no stop-loss or take-profit threshold hit. No new buys per timing rules (2:00-2:55 PM manage-only window). Force sell at 2:55 PM CDT approaching (~36 min out) | —
+The Robinhood/trading MCP integration appears disconnected in this session — none of the tools referenced in the trading prompt (`get_accounts`, `get_portfolio`, `get_equity_quotes`, `place_equity_order`, etc.) resolve via ToolSearch. Since you're at the terminal, this message is your alert.
+
+**Status right now:**
+- Time: 2:35 PM CDT — 20 minutes to the hard 2:55 PM CDT force-sell deadline
+- Per the trade log's last entry (2:19 PM CDT): 1 open position, MU, +0.15%, $90 cash
+- I have no way to check current MU price or place a sell order from this session
+
+**What I need from you:** please check that the trading tool/MCP connection for this session is active (it may need reconnecting or this session may be missing the integration other tick sessions have). If you can get it connected in the next few minutes, tell me and I'll immediately run the portfolio check and force-sell. Otherwise, you may want to close the MU position manually before 2:55 PM CDT to stay within the no-overnight-holds rule.
