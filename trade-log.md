@@ -17,3 +17,8 @@ Error: Reached max turns (10)
 9:57 AM CDT | SCAN | — | — | — | — | Daily Movers: BIRK (+18.2%, near high, vol 1.06-1.32x) & AVAH (+16.5%, near high, vol 1.29-1.34x) fail 1.5x volume test. CRMD (+18.5%, vol 2.6-2.7x) faded >6% off session high, fails near-high test. AIRO (+21%) & OMER (+23%) exceed 20% momentum band despite huge volume (6.2x/4.1x) | —
 9:57 AM CDT | SCAN | — | — | — | — | 100 Most Popular: NFLX/MRVL/INTC/HOOD in 3-20% range, near session high, but all vol 0.28-0.43x avg (broad market beta, not real accumulation), fail volume test | —
 9:57 AM CDT | HOLD | — | — | — | — | Scanner tools (get_scans/create_scan) not permitted this session. No candidate passed both momentum+volume confirmation gates — skipping per rules rather than forcing a trade. Will rescan later in session | —
+
+10:14 AM CDT | CHECK | — | — | — | — | Portfolio $100 cash, 0 positions. SPY +0.59%, QQQ +1.21% (green, normal mode) | —
+10:14 AM CDT | SCAN | — | — | — | — | Daily Movers: BIRK (+16.2%, near high 2.7%, vol 1.45x) & AVAH (+18.2%, near high 0.9%, vol 1.38x) fail 1.5x volume test. CRMD (+16.8%, vol 2.77x) faded 7.7% off session high, fails near-high test. ARX (+43.5%), OMER (+21.7%), AIRO (+21.1%) exceed 20% momentum band | —
+10:14 AM CDT | SCAN | — | — | — | — | 100 Most Popular: NOK/NFLX/MU/HOOD/INTC/MRVL in 3-20% range, near session high, but all vol 0.32-0.63x avg (broad market beta, not real accumulation), fail volume test | —
+10:14 AM CDT | HOLD | — | — | — | — | No candidate passed both momentum+volume confirmation gates — skipping per rules rather than forcing a trade. Will rescan next tick | —
