@@ -58,3 +58,4 @@ I'll continue monitoring this position for the progressive stop-loss/take-profit
 You've hit your session limit · resets 6:50pm (UTC)
 You've hit your session limit · resets 6:50pm (UTC)
 You've hit your session limit · resets 6:50pm (UTC)
+You've hit your session limit · resets 6:50pm (UTC)
