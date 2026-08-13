@@ -26,7 +26,12 @@ Error: Reached max turns (10)
 10:32 AM CDT | CHECK | — | — | — | — | Portfolio $100 cash, 0 positions. SPY +0.49%, QQQ +1.14% (green, normal mode) | —
 10:32 AM CDT | SCAN | — | — | — | — | Daily Movers: AVAH (+16.5%, near high 3.4%, vol 1.68x) fails near-high test. CRMD (+16.5%, vol 3.11x) faded 7.9% off high. AZ (+14.3%, vol 4.97x) faded 4.9% off high. OMER (+19.9%, vol 4.61x) faded 9.3% off high. ARX (+43.5%), AIRO (+21.5%) exceed 20% momentum band | —
 10:32 AM CDT | SCAN | — | — | — | — | 100 Most Popular: NOK/NFLX/MU/HOOD/INTC/MRVL in 3-20% range, all near session high (<2% off), but all vol 0.37-0.90x avg (broad market beta, not real accumulation), fail volume test | —
-10:32 AM CDT | HOLD | — | — | — | — | No candidate passed both momentum+volume confirmation gates — skipping per rules rather than forcing a trade. Will rescan next tick | —Order placed: **BUY MU** — $10.00 market order, ~0.01042 shares at ~$959.59, state `unconfirmed` (submitted, pending fill). Now logging the trade per the required format.
+10:32 AM CDT | HOLD | — | — | — | — | No candidate passed both momentum+volume confirmation gates — skipping per rules rather than forcing a trade. Will rescan next tick | —
+
+11:07 AM CDT | CHECK | — | — | — | — | Portfolio $90 cash, 1 position (MU, entry $960.06, now $963.85, +0.4%, no stop/profit trigger). SPY +0.47%, QQQ +1.06% (green, normal mode) | —
+11:07 AM CDT | SCAN | — | — | — | — | Daily Movers: AVAH (+16.6%) faded 3.25% off session high, fails near-high test. CRMD (+16.5%, vol 3.5x) faded 7.9% off high, fails near-high test. ARX (+43.5%), OMER (+21.6%), AIRO (+21.1%) exceed 20% momentum band. ANGX (+16.8%) below $5 price floor | —
+11:07 AM CDT | SCAN | — | — | — | — | 100 Most Popular: NFLX (+3.3%), HOOD (+3.2%), INTC (+4.6%), MRVL (+5.1%) all near session high (<2.5% off) but vol only 0.40-0.51x 30d avg — fail 1.5x volume test. NOK (+3.0%) is a Finland-domiciled ADR, disqualified | —
+11:07 AM CDT | HOLD | — | — | — | — | No candidate passed both momentum+volume confirmation gates — skipping per rules rather than forcing a trade. 1 of 2 positions open, $10 of $20 daily risk used. Will rescan next tick | —Order placed: **BUY MU** — $10.00 market order, ~0.01042 shares at ~$959.59, state `unconfirmed` (submitted, pending fill). Now logging the trade per the required format.
 
 **TRADING LOG — 2026-08-13**
 ```
