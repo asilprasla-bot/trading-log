@@ -45,3 +45,8 @@ Notes:
 - Position: $10 into MU, leaving $90 cash (above the $80 floor), 1 of 2 max positions open, $10 of the $20 daily risk cap used.
 
 I'll continue monitoring this position for the progressive stop-loss/take-profit rules and force-sell at 2:55 PM CDT.
+
+11:23 AM CDT | CHECK | — | — | — | — | Portfolio $90 cash, 1 position (MU, entry $960.06, now $966.89, +0.71%, no stop/profit trigger). SPY +0.45%, QQQ +1.05% (green, normal mode) | —
+11:23 AM CDT | SCAN | — | — | — | — | Daily Movers: AVAH (+17.96%, near high, vol 2.03x) disqualified — reported earnings this morning (EPS beat $0.22 vs $0.17 est), same-day earnings risk. CRMD (+17.89%, vol 3.64x) faded 6.79% off session high, fails near-high test. ARX/OMER/AIRO exceed 20% momentum band; ANGX/CD below $5 price floor | —
+11:23 AM CDT | SCAN | — | — | — | — | 100 Most Popular: NFLX (+3.40%), HOOD (+3.63%), INTC (+4.62%), MRVL (+5.50%) all near session high (<2.2% off) but vol only 0.42-0.57x avg — fail 1.5x volume test | —
+11:23 AM CDT | HOLD | — | — | — | — | No candidate passed both momentum+volume confirmation gates — skipping per rules rather than forcing a trade. 1 of 2 positions open ($10 MU), $10 of $20 daily risk used, $90 cash (above $80 floor). Will rescan next tick | —
