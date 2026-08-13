@@ -22,3 +22,8 @@ Error: Reached max turns (10)
 10:14 AM CDT | SCAN | — | — | — | — | Daily Movers: BIRK (+16.2%, near high 2.7%, vol 1.45x) & AVAH (+18.2%, near high 0.9%, vol 1.38x) fail 1.5x volume test. CRMD (+16.8%, vol 2.77x) faded 7.7% off session high, fails near-high test. ARX (+43.5%), OMER (+21.7%), AIRO (+21.1%) exceed 20% momentum band | —
 10:14 AM CDT | SCAN | — | — | — | — | 100 Most Popular: NOK/NFLX/MU/HOOD/INTC/MRVL in 3-20% range, near session high, but all vol 0.32-0.63x avg (broad market beta, not real accumulation), fail volume test | —
 10:14 AM CDT | HOLD | — | — | — | — | No candidate passed both momentum+volume confirmation gates — skipping per rules rather than forcing a trade. Will rescan next tick | —
+
+10:32 AM CDT | CHECK | — | — | — | — | Portfolio $100 cash, 0 positions. SPY +0.49%, QQQ +1.14% (green, normal mode) | —
+10:32 AM CDT | SCAN | — | — | — | — | Daily Movers: AVAH (+16.5%, near high 3.4%, vol 1.68x) fails near-high test. CRMD (+16.5%, vol 3.11x) faded 7.9% off high. AZ (+14.3%, vol 4.97x) faded 4.9% off high. OMER (+19.9%, vol 4.61x) faded 9.3% off high. ARX (+43.5%), AIRO (+21.5%) exceed 20% momentum band | —
+10:32 AM CDT | SCAN | — | — | — | — | 100 Most Popular: NOK/NFLX/MU/HOOD/INTC/MRVL in 3-20% range, all near session high (<2% off), but all vol 0.37-0.90x avg (broad market beta, not real accumulation), fail volume test | —
+10:32 AM CDT | HOLD | — | — | — | — | No candidate passed both momentum+volume confirmation gates — skipping per rules rather than forcing a trade. Will rescan next tick | —
