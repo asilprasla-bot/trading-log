@@ -55,3 +55,4 @@ I'll continue monitoring this position for the progressive stop-loss/take-profit
 11:41 AM CDT | SCAN | — | — | — | — | Daily Movers: AVAH (+18.2%, near high, vol 2.1x) disqualified — reported earnings this morning (EPS beat $0.22 vs $0.17 est). CRMD (+14.9%, vol 4.07x) faded 9.1% off session high, fails near-high test. STRZ (+16.5%, near high 2.2% off, vol 1.44x) fails 1.5x volume test (close but under). ARX/OMER/AIRO exceed 20% momentum band | —
 11:41 AM CDT | SCAN | — | — | — | — | 100 Most Popular: NFLX (+4.18%), HOOD (+3.35%), INTC (+3.86%), MRVL (+5.63%) all near session high (<2.6% off) but vol only 0.52-0.63x avg — fail 1.5x volume test | —
 11:41 AM CDT | HOLD | — | — | — | — | No candidate passed both momentum+volume confirmation gates — skipping per rules rather than forcing a trade. 1 of 2 positions open ($10 MU), $10 of $20 daily risk used, $90 cash (above $80 floor). Will rescan next tick | —
+You've hit your session limit · resets 6:50pm (UTC)
