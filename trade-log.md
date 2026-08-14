@@ -294,3 +294,8 @@ No candidate clears all the gates. Per the hard rules, I'm not forcing a trade w
 ```
 
 Portfolio unchanged: $99.44 cash / $89.91 buying power, no open positions. I'll continue monitoring — if NMAX breaks cleanly above $11.59 on volume, or a fresh mover with room to run appears before the 2:00 PM CDT new-buy cutoff, I'll revisit. Otherwise the session holds cash into the close.
+
+1:45 PM CDT | CHECK | — | — | — | — | Portfolio $99.44 cash / $89.91 settled buying power, 0 open positions, no prior losses today. SPY -0.22%, QQQ -0.33% (both red but under 2%, normal trading mode, score 3+ required) | —
+1:45 PM CDT | SCAN | — | — | — | — | Daily Movers: NMAX (+19.1%, 2.5% off session high, vol 6.8x 30d avg, mcap $1.64B) passes momentum+volume. UMAC (+20.8%) and TMCR (+20.9%) exceed 20% momentum band. Rest of list Y-suffix ADRs (HPIFY/JMPLY/CDGLY/NPPNY), sub-$5 (TDTH/EMAT/ENHA/NPWR/MRLN/KLC), moving wrong direction (ADIG/IMC/PSFE), or >20% blow-off (HTFL +38%/ETON +42%/CAPR +53%/IMXI +23%) | —
+1:45 PM CDT | SKIP | NMAX | $11.30 | 4/5 | 0.51x | mcap $1.64B, vol 6.8x avg, 5d trend positive, no earnings within 4d, SPY/QQQ red (no tailwind); EV: nearest resistance is today's high $11.59, only 2.6% away, vs 5% stop = 0.51x reward:risk — same resistance-capped fail seen all session on NMAX | —
+1:45 PM CDT | HOLD | — | — | — | — | No candidate cleared both momentum/volume gates and the 1.5x EV gate. 0 of 2 positions open, $0 of $20 daily risk used, $89.91 cash (above $80 floor). ~13 min to 2:00 PM new-buy cutoff. Will rescan next tick | —
