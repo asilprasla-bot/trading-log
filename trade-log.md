@@ -127,3 +127,11 @@ Next tick will manage the ALOY position against the progressive stop-loss/take-p
 9:28 AM CDT | SCAN | — | — | — | — | Daily Movers: UMAC (+15.6%, vol 1.53x avg) faded 7.3% off session high, fails near-high test. NMAX (+17.1%, vol 2.85x avg) faded 3.5% off high, fails near-high test. IMXI (+17.9%, vol 5.59x avg) faded 3.6% off high, fails near-high test. No earnings risk on any three | —
 9:28 AM CDT | HOLD | ALOY | $14.74 | — | — | Position down 2.9% from entry, within 2-4% "against you" band — stop triggers only at -4% loss, not yet hit. No take-profit trigger (position is negative, not up). Holding | —
 9:28 AM CDT | HOLD | — | — | — | — | No new candidate passed momentum confirmation this cycle (all top movers fading off session highs). 1 of 2 positions open, $89.91 cash (above $80 floor), $10 of $20 daily risk used. Will rescan next tick | —
+**This cycle's summary (~9:28 AM CDT):**
+
+- **Portfolio:** $89.91 cash, 1 open position (ALOY), above the $80 floor.
+- **ALOY:** down 2.9% from entry ($15.18 → $14.74) — within the 2–4% "against you" stop-loss band, which only triggers at -4%. Not there yet, so holding.
+- **New candidates scanned:** UMAC, NMAX, IMXI all up double digits but all fading 3.5–7.3% off their session highs — none passed the "within 3% of session high" momentum gate. No trade forced.
+- Logged and committed (`tick: 20260814T1428Z`).
+
+Next tick will re-check ALOY against the stop-loss/take-profit thresholds and rescan for a second position.
