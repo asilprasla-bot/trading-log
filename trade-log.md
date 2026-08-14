@@ -271,3 +271,4 @@ No trade taken this cycle — every candidate that cleared the momentum/price fi
 You've hit your session limit · resets 6pm (UTC)
 You've hit your session limit · resets 6pm (UTC)
 You've hit your session limit · resets 6pm (UTC)
+You've hit your session limit · resets 6pm (UTC)
