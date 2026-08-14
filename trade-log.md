@@ -109,3 +109,8 @@ No candidate clears the required 1.5x reward:risk threshold — every mover foun
 8:50 AM CDT | HOLD | — | — | — | — | No candidate passed momentum confirmation gates (all top movers fading from session highs post-open). None had earnings risk in next 4 days so that wasn't the blocker. Will rescan next tick | —
 
 **Decision: HOLD, no trade this cycle.** Cash preserved at $99.91, no positions opened. Per the rules I won't force a sub-1.5x EV trade just to have activity — will rescan next cycle as fresh price action develops.
+
+9:10 AM CDT | CHECK | — | — | — | — | Portfolio $99.91 cash, 0 positions. SPY +0.10%, QQQ +0.26% (green, normal mode, but 8:30-9:30 window requires score 4+) | —
+9:10 AM CDT | SCAN | — | — | — | — | Daily Movers: UMAC (+14.7%) faded 8.0% off session high, fails near-high test. NMAX (+16.75%) faded 3.7% off session high, borderline fail. IMXI (+17.8%, mcap $416M) faded 3.6% off high, fails near-high test. ALOY (+16.3%, near high 1.9% off, vol pacing ~6x 30d avg) passes momentum+volume | —
+9:10 AM CDT | BUY | ALOY | $15.12 | 5/5 | ~2.0x | +16.3% momentum confirmed near session high, 5d trend positive ($12.27→$15.06), mcap $1.32B, no earnings within 4 days, SPY/QQQ both green. EV: used tighter technical stop at recent pullback low ~$14.58 (3.4% risk) vs +7% target (2.0x reward:risk) since flat 5% stop only yields 1.4x | $10.00
+9:10 AM CDT | STATUS | — | — | — | — | 1 of 2 positions open (ALOY), $10 of $20 daily risk used, $89.91 cash (above $80 floor). Will manage position and rescan for 2nd candidate next tick | —
