@@ -135,3 +135,21 @@ Next tick will manage the ALOY position against the progressive stop-loss/take-p
 - Logged and committed (`tick: 20260814T1428Z`).
 
 Next tick will re-check ALOY against the stop-loss/take-profit thresholds and rescan for a second position.
+**Cycle summary (9:49 AM CDT):**
+
+**Position management:** ALOY (0.659 sh @ avg $15.18, now $14.605) is down 3.79% — within the 2–4% "against you" band, stop triggers at -4% position loss. Not yet triggered; holding and will re-check shortly since it's close to the threshold.
+
+**New candidate search:** Screened Daily Movers + 100 Most Popular for momentum (3–20% up, near session high, ≥1.5x volume):
+- **LPTH** (+16.9%, near high) — failed volume confirmation (1.21x avg, needs 1.5x). Skip.
+- **IMXI** (+19.7%, near high, 4.1x volume, no earnings risk) — scored 3/5, but reward:risk only 1.4x (7% upside to +7% target vs 5% stop), below the required 1.5x. Skip.
+- Rest of large-cap watchlist (RKLB, IONQ, QBTS, RGTI, MU, VST, etc.) — all under 3% moves today, no momentum signal. Small-cap movers under $5 (SPCE, NIO, PLUG, ENHA, NPWR, EMAT) excluded by price floor.
+
+No new position opened this cycle — nothing cleared both the volume and EV-ratio gates. Log:
+
+```
+9:49 AM | HOLD | ALOY | $14.61 | — | — | -3.79% vs avg cost, in 2-4% stop band, not yet triggered | n/a
+9:49 AM | SKIP | LPTH | $15.34 | 3/5 | n/a  | volume 1.21x avg, needs 1.5x | n/a
+9:49 AM | SKIP | IMXI | $14.00 | 3/5 | 1.4x | reward:risk below 1.5x min  | n/a
+```
+
+I'll continue monitoring ALOY against its stop and keep rescanning for a qualifying second entry.
