@@ -170,3 +170,18 @@ Both candidates already sit right at today's session high (which is exactly why 
 ```
 
 **Status:** Account 782280879 — cash ≈$99.45, 0 open positions, well above the $80 floor. Market is flat/slightly red (SPY -0.13%, QQQ -0.22%), normal trading window. No new buys this cycle; will rescan on next tick for a candidate with real room to run before hitting resistance.
+
+10:25 AM CDT | CHECK | — | — | — | — | Portfolio $89.91 settled cash (min of $99.44 raw cash / $89.91 buying power), 0 open positions. SPY -0.22%, QQQ -0.41% (both red but under 2%, normal trading mode, score 3+ required) | —
+10:25 AM CDT | SCAN | — | — | — | — | Daily Movers: NMAX (+18.9%, 2.7% off session high, vol 4.3x 30d avg) passes momentum+volume. LPTH (+17.3%, 1.4% off high, vol only 1.23x avg) fails volume gate. Remaining movers were OTC/ADR-style Y-suffix tickers, sub-$5, or moved >20% (blow-off risk, skipped). 100 Most Popular re-scan: no liquid large/mid-cap moved 3%+ today | —
+10:25 AM CDT | SKIP | LPTH | $15.39 | — | — | volume 1.23x 30d avg, needs 1.5x minimum | —
+10:25 AM CDT | SKIP | NMAX | $11.28 | 4/5 | 1.4x | reward:risk capped at +7% target / 5% stop = 1.4x, below 1.5x min; mcap $1.63B, 5d trend positive, no earnings risk, but SPY/QQQ red so no tailwind point | —
+10:25 AM CDT | STATUS | — | — | — | — | 0 of 2 positions open, $0 of $20 daily risk used, $89.91 cash (above $80 floor). No trade forced this cycle; will rescan next tick | —
+
+**Cycle summary (~10:25 AM CDT):**
+
+- **Portfolio:** $89.91 settled cash, 0 open positions, well above the $80 floor. No prior loss today (starting fresh from flat cash).
+- **Market:** SPY -0.22%, QQQ -0.41% — both red but under the 2% caution threshold, so normal mode (score 3+) applies.
+- **Candidates:** NMAX (+18.9%, near session high, strong 4.3x volume) was the best setup found — scored 4/5 — but failed the Step 7 reward:risk check: capped upside of +7% against a fixed 5% stop only yields 1.4x, below the required 1.5x. LPTH failed volume confirmation outright (1.23x vs required 1.5x). No other liquid, exchange-listed, $5+ stock in Daily Movers or the 100 Most Popular watchlist showed a genuine 3%+ move today.
+- **Decision:** No trade forced. Sizing in at a capped-upside level with a red market tailwind wasn't worth spending the day's limited $20 risk budget on a sub-threshold setup.
+
+Will keep monitoring and rescan next tick for a candidate with real room to the next resistance level.
