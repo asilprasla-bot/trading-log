@@ -194,6 +194,13 @@ Will keep monitoring and rescan next tick for a candidate with real room to the 
 - No other liquid NYSE/Nasdaq stock $5+ showed a genuine 3%+ move today.
 
 Logged and committed (`tick: 20260814T1526Z`). Will rescan next tick.
+
+1:12 PM CDT | CHECK | — | — | — | — | Portfolio $89.91 settled cash (min of $99.44 raw cash / $89.91 buying power), 0 open positions, no prior losses today. SPY -0.23%, QQQ -0.34% (both red but under 2%, normal trading mode, score 3+ required) | —
+1:12 PM CDT | SCAN | — | — | — | — | Daily Movers: TMCR (+19.6%, near high 0.9%, vol 1.71x avg, mcap $455M) and NMAX (+19.7%, near high 2.0%, vol 6.22x avg, mcap $1.65B) both pass momentum+volume; rest of list is Y-suffix ADRs, sub-$5, or >20% blow-off moves (HTFL, ETON, CAPR, UMAC, IMXI, ADIG, IMC, PSFE all skipped) | —
+1:12 PM CDT | SCAN | — | — | — | — | 100 Most Popular: AMD (+5.2%, near high 0.6%) vol 0.63x avg fails. SPCE (+7.1%) vol 1.26x avg fails, also 3.1% off high. IONQ (+3.2%, near high 1.8%) vol 0.60x avg fails. Rest of list <3% moves or red | —
+1:12 PM CDT | SKIP | TMCR | $7.33 | 3/5 | 1.4x | mcap $455M (<$500M, no point), no earnings, SPY/QQQ red (no tailwind); EV: +7% target/5% stop = 1.4x, below 1.5x min | —
+1:12 PM CDT | SKIP | NMAX | $11.36 | 4/5 | 1.4x | mcap $1.65B, 5d trend positive, no earnings, SPY/QQQ red (no tailwind); EV: +7% target/5% stop = 1.4x, below 1.5x min — same fail seen repeatedly on NMAX today | —
+1:12 PM CDT | HOLD | — | — | — | — | No candidate cleared both momentum/volume gates and the 1.5x EV gate. 0 of 2 positions open, $0 of $20 daily risk used, $89.91 cash (above $80 floor). Will rescan next tick | —
 **Summary — no trade this cycle:**
 
 **Account 782280879:** $99.44 total, settled cash $89.91 (buying power), no open positions. Cash reserve rule caps today's total spend at ~$9.91 (need to keep $80 min), so only one small position is possible today regardless.
