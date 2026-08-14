@@ -246,3 +246,25 @@ I'll continue monitoring — let me know if you'd like me to rescan now or wait 
 LOG: 11:18 AM | NO TRADE | — | — | — | — | Scanned 4 candidates (NMAX, LPTH, IONQ, AMD); all failed a hard gate (fade/volume/EV) | $0.00
 
 I'll rescan later in the session — there's time left before the 2:00 PM cutoff for new buys. Let me know if you'd like me to run another pass now or wait and check back.
+## Trading Cycle Summary — 2026-08-14, ~11:37 AM CDT
+
+**Portfolio:** Account 782280879 active. Settled cash $89.91, no open positions. Well above the $80 floor.
+
+**Market:** SPY -0.20%, QQQ -0.38% — mildly red, under the 2% caution threshold, so normal rules apply (score 3+, EV ≥1.5x required).
+
+**Candidates researched (86 tickers scanned across Daily Movers, volatile mid-caps, and mega-caps):**
+
+| Ticker | Momentum | Volume | Verdict |
+|---|---|---|---|
+| NMAX | +17.6%, but 3.6% below session high | 5.3x avg | Fails momentum (fading) |
+| LPTH | +15%, 2.9% below high, score 4/5 | 1.65x avg | Fails EV — resistance tested twice at $15.61, only ~3% upside vs 5% stop (0.6x reward:risk, need 1.5x) |
+| IONQ | +3.8% | 0.5x avg (partial-day pace) | Fails volume confirmation |
+| AMD | +3.8%, but topped 2hrs ago, chopping near lows since | 0.5x avg (partial-day pace) | Fails momentum quality + volume |
+| Everything else scanned | — | — | Failed price/ADR/OTC/direction filters |
+
+**Log:**
+```
+11:37 AM | SCAN | NO TRADE | — | — | — | 86 tickers screened; best candidates (LPTH, NMAX) failed EV/momentum gates; no setup cleared 1.5x reward:risk | $0.00
+```
+
+No trade taken this cycle — every candidate that cleared the momentum/price filters either failed the volume-surge confirmation or failed the 1.5x reward:risk EV check (LPTH's nearest resistance was only ~3% away against a 5% stop). Forcing a trade into a level tested twice today isn't a good risk, so I'm holding cash. I'll rescan for a fresh setup before the 2:00 PM CDT buy cutoff.
