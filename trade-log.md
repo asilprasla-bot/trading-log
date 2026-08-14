@@ -217,4 +217,11 @@ Per the hard rule "if reward:risk < 1.5 → skip this trade," I'm not forcing ei
 10:41 AM | NO TRADE | NMAX | $10.79 | -  | -   | faded 6.9% off session high, momentum confirmation failed | -
 ```
 
+11:01 AM CDT | CHECK | — | — | — | — | Portfolio $89.91 settled cash (min of $99.44 raw cash / $89.91 buying power), 0 open positions. SPY -0.21%, QQQ -0.37% (both red but under 2%, normal trading mode, score 3+ required) | —
+11:01 AM CDT | SCAN | — | — | — | — | Daily Movers: NMAX (+15.3%, 5.7% off session high, vol ~5.0x 30d avg) fails near-high test. LPTH (+16.9%, 1.9% off high, vol only 1.4x 30d avg) fails volume gate. JMPLY/CDGLY/EBOSY are Y-suffix ADRs, excluded. Rest of list sub-$5 or moved >20% (HTFL +32%, UMAC +24%, ETON +40%, IMXI +23%, CAPR +44% — blow-off risk, skipped) | —
+11:01 AM CDT | SCAN | — | — | — | — | 100 Most Popular: full re-scan of ~73 individual stock tickers — no liquid large/mid-cap moved 3%+ today, largest movers XOM +1.4%, CVX +1.8%, DIS +1.6%, BABA +1.7%, all below momentum threshold | —
+11:01 AM CDT | SKIP | NMAX | $10.93 | — | — | faded 5.7% off session high ($11.59), momentum confirmation failed | —
+11:01 AM CDT | SKIP | LPTH | $15.31 | — | — | volume 1.4x 30d avg (30d avg basis), needs 1.5x minimum | —
+11:01 AM CDT | HOLD | — | — | — | — | No candidate passed both momentum+volume confirmation gates. Scanner tools (get_scans/create_scan) not permitted this session — relied on watchlist + quote scans instead. 0 of 2 positions open, $89.91 cash (above $80 floor), no prior losses today. Will rescan next tick | —
+
 I'll continue monitoring — let me know if you'd like me to rescan now or wait and check again shortly.
