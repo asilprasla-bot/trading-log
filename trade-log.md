@@ -194,3 +194,27 @@ Will keep monitoring and rescan next tick for a candidate with real room to the 
 - No other liquid NYSE/Nasdaq stock $5+ showed a genuine 3%+ move today.
 
 Logged and committed (`tick: 20260814T1526Z`). Will rescan next tick.
+**Summary — no trade this cycle:**
+
+**Account 782280879:** $99.44 total, settled cash $89.91 (buying power), no open positions. Cash reserve rule caps today's total spend at ~$9.91 (need to keep $80 min), so only one small position is possible today regardless.
+
+**Market:** SPY -0.25%, QQQ -0.49% — mildly red, normal trading rules apply (score 3+ required).
+
+**Candidates scanned:** Daily Movers watchlist (20 tickers). Most were ADRs (Y-suffix, excluded), under $5, moving the wrong direction, or overextended (>20%, likely exhausted spikes — HTFL +34%, ETON +40%, CAPR +52%, UMAC +24%, IMXI +22%). Only two passed the initial momentum band (3–20% up, price ≥$5):
+
+| Ticker | Chg | Price | Mkt Cap | Vol (rate-adj) | 5d trend | Earnings | Notes |
+|---|---|---|---|---|---|---|---|
+| NMAX | +13.6% | $10.79 | $1.56B | ~4.8x avg (strong) | positive | none in 4d | **Faded 6.9% off session high ($11.59)** — momentum confirmation fails (must stay within 3% of high) |
+| LPTH | +16.3% | $15.26 | $1.24B | ~1.3x+ (strong, rate-adjusted) | positive | none in 4d | Passes momentum + volume; scores 4/5 (market not green) |
+
+**LPTH failed the EV check (Step 7):** with a 5% stop and the closer-of-(nearest resistance, +7%) target, reward:risk = 1.4x — below the required 1.5x minimum. NMAX failed momentum confirmation outright (faded too far off its high).
+
+Per the hard rule "if reward:risk < 1.5 → skip this trade," I'm not forcing either into a buy. Logging this as a no-trade cycle rather than taking a marginal position with real capital.
+
+**Log:**
+```
+10:41 AM | NO TRADE | LPTH | $15.26 | 4/5 | 1.4x | momentum+volume pass but EV ratio below 1.5x threshold | -
+10:41 AM | NO TRADE | NMAX | $10.79 | -  | -   | faded 6.9% off session high, momentum confirmation failed | -
+```
+
+I'll continue monitoring — let me know if you'd like me to rescan now or wait and check again shortly.
