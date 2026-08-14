@@ -153,3 +153,20 @@ No new position opened this cycle — nothing cleared both the volume and EV-rat
 ```
 
 I'll continue monitoring ALOY against its stop and keep rescanning for a qualifying second entry.
+Confirmed: ALOY sell **filled** at avg $14.4601 (proceeds ≈ $9.53). Position closed, zero ALOY exposure remains.
+
+**EV check on top 2 candidates (Step 7 — required before any buy):**
+
+- **AAOI**: price $148.90, today's high $153.39 → nearest resistance only 3.0% away (recent intraday rejection point). Downside stop 5%. Reward:risk = 3.0/5 = **0.60x** — fails 1.5x minimum.
+- **LPTH**: price $15.34, today's high $15.61 → nearest resistance only 1.8% away. Reward:risk = 1.8/5 = **0.35x** — fails.
+
+Both candidates already sit right at today's session high (which is exactly why they passed the momentum-confirmation filter), leaving almost no room to the nearest overhead resistance before hitting it. That makes the reward:risk math unfavorable right now — buying here means capping upside at a level barely above entry while risking a full 5% stop. No trade clears the required 1.5x bar, so I'm not forcing one.
+
+**Log:**
+```
+10:05 AM | SELL | ALOY  | $14.4601 | STOP-LOSS -4.68% | —    | moved >4% against entry, immediate exit | $9.53
+10:08 AM | SKIP | AAOI  | $148.90  | 4/5              | 0.60x| at session high, resistance too close   | —
+10:08 AM | SKIP | LPTH  | $15.34   | 4/5              | 0.35x| at session high, resistance too close   | —
+```
+
+**Status:** Account 782280879 — cash ≈$99.45, 0 open positions, well above the $80 floor. Market is flat/slightly red (SPY -0.13%, QQQ -0.22%), normal trading window. No new buys this cycle; will rescan on next tick for a candidate with real room to run before hitting resistance.
