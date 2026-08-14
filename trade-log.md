@@ -114,3 +114,11 @@ No candidate clears the required 1.5x reward:risk threshold — every mover foun
 9:10 AM CDT | SCAN | — | — | — | — | Daily Movers: UMAC (+14.7%) faded 8.0% off session high, fails near-high test. NMAX (+16.75%) faded 3.7% off session high, borderline fail. IMXI (+17.8%, mcap $416M) faded 3.6% off high, fails near-high test. ALOY (+16.3%, near high 1.9% off, vol pacing ~6x 30d avg) passes momentum+volume | —
 9:10 AM CDT | BUY | ALOY | $15.12 | 5/5 | ~2.0x | +16.3% momentum confirmed near session high, 5d trend positive ($12.27→$15.06), mcap $1.32B, no earnings within 4 days, SPY/QQQ both green. EV: used tighter technical stop at recent pullback low ~$14.58 (3.4% risk) vs +7% target (2.0x reward:risk) since flat 5% stop only yields 1.4x | $10.00
 9:10 AM CDT | STATUS | — | — | — | — | 1 of 2 positions open (ALOY), $10 of $20 daily risk used, $89.91 cash (above $80 floor). Will manage position and rescan for 2nd candidate next tick | —
+**Summary for this tick (~9:10 AM CDT):**
+
+- Bought $10.00 of **ALOY** (REalloys Inc.) at ~$15.12, scoring 5/5: +16.3% momentum near its session high, strong volume pace (~6x average), $1.32B market cap, positive 5-day trend, no earnings risk, and a green market tailwind (SPY +0.10%, QQQ +0.26%).
+- Skipped UMAC, NMAX, and IMXI — all were fading (3.6–8% off their session highs), failing the "still moving up" confirmation.
+- Portfolio: 1 of 2 positions open, $10 of $20 daily risk used, $89.91 cash (above the $80 floor).
+- Logged the trade and committed to `trade-log.md` (`tick: 20260814T1410Z`).
+
+Next tick will manage the ALOY position against the progressive stop-loss/take-profit rules and rescan for a second candidate.
