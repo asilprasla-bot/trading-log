@@ -280,3 +280,17 @@ You've hit your session limit · resets 6pm (UTC)
 You've hit your session limit · resets 6pm (UTC)
 You've hit your session limit · resets 6pm (UTC)
 You've hit your session limit · resets 6pm (UTC)
+I've now screened ~120 tickers across Daily Movers and the 100 Most Popular list (the saved-scanner tool isn't permitted for this session). Result:
+
+- **AMD** (+5.08%, near high) — fails volume confirmation (today's pace ~24M vs 28.4M avg, even time-adjusted)
+- **IONQ** (+3.35%, near high) — fails volume confirmation (today's pace ~17M vs 21.4M avg)
+- **NMAX** (+19.65%, 6.6x volume, scores 4/5) — fails the EV check: it's back at its intraday resistance (session high, ~1.6% away) after a sharp pullback-and-recover, while the nearest support is ~3.3% below. That's a reward:risk under 1.0, well short of the required 1.5x.
+
+No candidate clears all the gates. Per the hard rules, I'm not forcing a trade with an unfavorable risk profile just to have activity — the EV/reward-risk floor exists specifically to prevent buying an extended, resistance-capped stock like NMAX right now.
+
+**Log:**
+```
+1:28 PM CDT | HOLD | — | — | — | — | Screened 120+ tickers (Daily Movers + 100 Most Popular); AMD/IONQ failed volume confirmation, NMAX (4/5 score) failed EV check at resistance (R:R <1.0) | $0.00
+```
+
+Portfolio unchanged: $99.44 cash / $89.91 buying power, no open positions. I'll continue monitoring — if NMAX breaks cleanly above $11.59 on volume, or a fresh mover with room to run appears before the 2:00 PM CDT new-buy cutoff, I'll revisit. Otherwise the session holds cash into the close.
