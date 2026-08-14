@@ -269,3 +269,4 @@ I'll rescan later in the session — there's time left before the 2:00 PM cutoff
 
 No trade taken this cycle — every candidate that cleared the momentum/price filters either failed the volume-surge confirmation or failed the 1.5x reward:risk EV check (LPTH's nearest resistance was only ~3% away against a 5% stop). Forcing a trade into a level tested twice today isn't a good risk, so I'm holding cash. I'll rescan for a fresh setup before the 2:00 PM CDT buy cutoff.
 You've hit your session limit · resets 6pm (UTC)
+You've hit your session limit · resets 6pm (UTC)
