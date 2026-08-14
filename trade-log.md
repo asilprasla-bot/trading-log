@@ -104,4 +104,8 @@ Error: Reached max turns (5)
 
 No candidate clears the required 1.5x reward:risk threshold — every mover found so far is either fading from its high or running into nearby resistance that caps the realistic upside. Given we're only ~3 minutes into the session, this is expected: today's "movers" are mostly carrying over yesterday's already-extended gains rather than showing fresh momentum with room to run.
 
+8:50 AM CDT | CHECK | — | — | — | — | Portfolio $99.91 cash, 0 positions. SPY +0.003%, QQQ +0.18% (flat/green, normal mode, but 8:30-9:30 window requires score 4+) | —
+8:50 AM CDT | SCAN | — | — | — | — | Daily Movers: LUNR (+11.0%, vol pace unclear) faded 4.79% off session high, fails near-high test. UMAC (+10.9%, vol 1.04x) faded 11.0% off session high, fails near-high test. RCAT (+5.96%, vol 0.65x) faded 7.82% off session high, fails near-high test. IMXI (+20.26%, near high 1.6% off, vol 4.3x avg) exceeds 20% momentum band — likely news-driven spike, skipped | —
+8:50 AM CDT | HOLD | — | — | — | — | No candidate passed momentum confirmation gates (all top movers fading from session highs post-open). None had earnings risk in next 4 days so that wasn't the blocker. Will rescan next tick | —
+
 **Decision: HOLD, no trade this cycle.** Cash preserved at $99.91, no positions opened. Per the rules I won't force a sub-1.5x EV trade just to have activity — will rescan next cycle as fresh price action develops.
