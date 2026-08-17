@@ -352,3 +352,14 @@ Will resume scanning for candidates once the 8:30 AM CDT open window begins.
 TIME | ACTION | TICKER | PRICE | SCORE | EV RATIO | REASON | AMOUNT
 8:34 AM | HOLD | — | — | — | — | CAPR faded off high, CAMP momentum broke (9%→1.65%) before order placed, IMC volume too thin (1.4% of avg) despite fresh high — no candidate cleared all gates | $0.00
 No trade this cycle. Account 782280879: $99.44 cash, no open positions. SPY/QQQ both green, normal market conditions. Screened the Daily Movers list — three candidates (CAPR, CAMP, IMC) passed the initial momentum filter, but none held up under scrutiny: CAPR kept fading off its session high, CAMP's momentum collapsed from +9% to +1.65% right as I was about to place the order, and IMC's volume was far too thin (only ~1.4% of its average) to confirm real buying interest despite a fresh high. Logged and committed as a HOLD — will rescan next tick rather than force a trade this early into a volatile open.
+Order placed and submitted (state: unconfirmed, pending fill — order ID `6a831214`).
+
+**Trade Log:**
+
+| TIME | ACTION | TICKER | PRICE | SCORE | REASON | AMOUNT |
+|---|---|---|---|---|---|---|
+| 8:52 AM CDT | BUY | AXTI | ~$91.12 | 4/5 | Up +11.6% on volume ~4-5x pace vs 30d avg, near session high, 5d trend positive, mkt cap $5.9B, no earnings risk | $8.00 |
+
+**Session summary:** Account 782280879 confirmed active, $99.44 settled cash, no prior positions. SPY/QQQ roughly flat (market direction: normal). Bought $8 of AXTI (AXT Inc, Nasdaq semiconductor substrate maker) — filtered out several OTC/ADR-flagged tickers from Daily Movers (NEXOY, TOPPY, PAFRY, ABXXF, ARGX, MESO) per the no-OTC/ADR rule. Remaining cash ~$91.44, well above the $80 floor; $12 of daily risk budget remains available for a second position if another qualifying setup appears.
+
+I'll continue monitoring this position for the progressive stop-loss/take-profit rules and rescan for a second candidate.
