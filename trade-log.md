@@ -363,3 +363,25 @@ Order placed and submitted (state: unconfirmed, pending fill — order ID `6a831
 **Session summary:** Account 782280879 confirmed active, $99.44 settled cash, no prior positions. SPY/QQQ roughly flat (market direction: normal). Bought $8 of AXTI (AXT Inc, Nasdaq semiconductor substrate maker) — filtered out several OTC/ADR-flagged tickers from Daily Movers (NEXOY, TOPPY, PAFRY, ABXXF, ARGX, MESO) per the no-OTC/ADR rule. Remaining cash ~$91.44, well above the $80 floor; $12 of daily risk budget remains available for a second position if another qualifying setup appears.
 
 I'll continue monitoring this position for the progressive stop-loss/take-profit rules and rescan for a second candidate.
+**9:07 AM CDT scan complete — no trade placed.**
+
+**Portfolio:** Account 782280879 active, $91.44 settled cash (above $80 floor), 1 open position (AXTI, ~$8.00, essentially flat at -0.46% vs entry — no stop/profit action needed).
+
+**Market:** SPY -0.13%, QQQ +0.15% — flat/normal conditions. Still in the 8:30–9:30 AM high-conviction window, requiring score 4+.
+
+**Candidates screened:** Daily Movers, 100 Most Popular, and volatile momentum names.
+- **DUOT** — up 9.7%, but reports earnings *this afternoon* → auto-disqualified.
+- **NNNN** — faded 34% off its session high ($13.80→$9.05) → fails momentum confirmation (pump-and-fade).
+- **ALM** (Almonty Industries) — scored 4/5, but EV check failed: nearest resistance/+7% target gives only ~1.4x reward:risk vs the required 1.5x.
+- **CBRS** (Cerebras) — scored 4/5, but sits right below its 5-day swing high, giving only ~1.0x reward:risk.
+- **RKLB** — scored 4/5, but a 5-day resistance level just 3% overhead gives only ~0.6x reward:risk.
+
+All three real candidates cleared the momentum/volume/cap/earnings bars but failed the 1.5x expected-value gate — each is already extended near a nearby resistance level, meaning limited upside against a full 5% stop-loss risk. Per the hard rule, I'm skipping rather than forcing a trade.
+
+**Log:**
+```
+9:07 AM | HOLD | AXTI | $91.03 | — | — | position flat (-0.46%), no stop/profit trigger | $8.00
+9:15 AM | NO TRADE | — | — | 4/5 (best: ALM) | 1.4x max | best candidates all extended near resistance, EV <1.5x | $0
+```
+
+I'll continue monitoring and rescan later in the session as new momentum sets up.
