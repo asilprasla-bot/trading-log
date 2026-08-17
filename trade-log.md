@@ -351,3 +351,4 @@ Will resume scanning for candidates once the 8:30 AM CDT open window begins.
 
 TIME | ACTION | TICKER | PRICE | SCORE | EV RATIO | REASON | AMOUNT
 8:34 AM | HOLD | — | — | — | — | CAPR faded off high, CAMP momentum broke (9%→1.65%) before order placed, IMC volume too thin (1.4% of avg) despite fresh high — no candidate cleared all gates | $0.00
+No trade this cycle. Account 782280879: $99.44 cash, no open positions. SPY/QQQ both green, normal market conditions. Screened the Daily Movers list — three candidates (CAPR, CAMP, IMC) passed the initial momentum filter, but none held up under scrutiny: CAPR kept fading off its session high, CAMP's momentum collapsed from +9% to +1.65% right as I was about to place the order, and IMC's volume was far too thin (only ~1.4% of its average) to confirm real buying interest despite a fresh high. Logged and committed as a HOLD — will rescan next tick rather than force a trade this early into a volatile open.
