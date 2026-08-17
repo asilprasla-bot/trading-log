@@ -318,3 +318,10 @@ No trade this cycle. It's 2:34 PM CDT — past the 2:00 PM new-buy cutoff, in th
 ```
 
 No action taken this cycle — correctly sitting in cash this close to market close per the timing rules.
+
+---
+
+**TRADING LOG — 2026-08-17**
+
+8:00 AM CDT | CHECK | — | — | — | — | Portfolio $99.44 cash, 0 positions (no overnight hold carried). SPY -0.01%, QQQ +0.20% pre-market (flat) | —
+8:00 AM CDT | HOLD | — | — | — | — | Pre-market window (8:00-8:30 AM CDT) — observe only per timing rules, no buys until market open. Will scan once normal trading window begins | —
