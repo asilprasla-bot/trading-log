@@ -608,3 +608,9 @@ No trade this tick since both positions are healthy and we're at the max 2-posit
 - HIVE, ENVX, ENHA, BALY, BUUU, EYPT — excluded (price <$5 or moving down today).
 
 No candidate clears the 1.5x reward:risk EV bar this tick. Skipping new buys — already logged one profitable trade today (AXTI). Holding MRVL and cash. Will rescan next tick.
+**Tick complete (12:15 PM CDT):**
+
+- **Sold AXTI** at ~$94.94, locking in +4.23% gain (~+$0.34) — take-profit rule triggered on the pullback from a fresh session high.
+- **Holding MRVL** (-0.82%, well within stop tolerance).
+- Rescanned Daily Movers: CBRS, SWMR, VCX, RUM all passed initial momentum/price filters, but every one failed either the volume gate or the 1.5x reward:risk EV check (VCX also carries a manipulation-risk profile — thinly-floated fund down 93% from its 52-week high in days). No new buy this tick.
+- Account 782280879: ~$91.78 cash, 1/2 positions open. Logged and committed.
