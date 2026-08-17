@@ -587,3 +587,24 @@ No action needed this pass — both positions within hold range, at 2-position c
 11:56 AM | HOLD | MRVL | $238.46 | avg $239.09 (-0.26%) | within stop-loss tolerance
 
 No trade this tick since both positions are healthy and we're at the max 2-position cap. Logged and committed.
+
+**Tick summary — 12:15 PM CDT (normal trading window, score 3+ required)**
+
+**Take-profit exit:** AXTI hit +4.23% (avg $91.07 → $94.925), with price ticking down slightly from a fresh session high ($95.17 → ~$94.92-94.94). Take-profit rule (up 4%+ but dropping from session high) triggered — sold all 0.087844 shares at ~$94.94, locking in ~+4.2% gain (~+$0.34).
+
+```
+12:15 PM | SELL | AXTI | $94.94 | +4.23% profit | $8.34
+```
+
+**Portfolio after sell:** Account 782280879, 1 open position (MRVL, -0.82% vs avg $239.09 → $237.13, well within stop tolerance, no action). Cash ~$91.78, total value ~$99.55. One slot freed for a new buy.
+
+**Market:** SPY -0.24%, QQQ +0.03% — normal conditions, neither down 2%+.
+
+**Rescan (Daily Movers) — candidates after price/direction filter:**
+- CBRS +17.5%, near high (1.45% off), vol 1.73x avg (now passes, was failing earlier) — market cap $60B, 5d trend positive (+11.7%), no earnings in window. Nearest resistance = prior swing high $265.63 (3 days ago), only 3.24% away vs 5% stop → EV ratio 0.65x — **fails EV check (<1.5x)**.
+- SWMR +13.8%, near high (1.23% off), vol 2.01x avg — market cap $514M (barely passes), 5d trend +30%, no earnings. Nearest resistance = today's session high, only ~1.2% away (or 7% fallback) vs 5% stop → EV ratio ≤1.4x — **fails EV check**.
+- VCX +15.6%, near high (2.76% off), vol 3.69x avg — thinly-floated closed-end fund (28.3M float) that crashed from 52-week high $575 to $28.71 just 3 days ago; manipulation-risk profile. EV ratio 0.55x — **fails EV check, also flagged as manipulation risk**.
+- RUM +12.1%, near high (0.42% off) — volume only 1.04x 30-day avg — **fails volume confirmation**.
+- HIVE, ENVX, ENHA, BALY, BUUU, EYPT — excluded (price <$5 or moving down today).
+
+No candidate clears the 1.5x reward:risk EV bar this tick. Skipping new buys — already logged one profitable trade today (AXTI). Holding MRVL and cash. Will rescan next tick.
