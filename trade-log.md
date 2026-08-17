@@ -644,3 +644,26 @@ No trade this tick — purely cash-constrained, not a candidate-quality issue. W
 ```
 
 No trade executed this cycle — the cash-floor rule blocks any new buy until either MRVL is closed out (not warranted yet) or more cash settles. I'll continue monitoring MRVL for stop-loss/take-profit triggers and re-check on the next cycle.
+**Status check complete — no new buys today, cash floor binding.**
+
+**Account 782280879:** active, cash account.
+- Raw cash: $91.77 | Buying power: $83.44 | Settled cash (min of both, per hard rule) = **$83.44**
+- Unsettled funds: $8.33 (T+1, not usable) | $100 pending deposit (not yet available)
+
+**Cash floor check:** Hard rule requires keeping ≥$80 in cash at all times. Settled cash is $83.44, leaving only **$3.44** of headroom — below the $5 minimum position size. **I cannot open any new position right now without violating the $80 floor**, so I'm skipping the scan/buy steps entirely this cycle.
+
+**Market direction:** SPY -0.36%, QQQ -0.15% — both under 2% down → normal conditions, not a factor here since we're not buying anyway.
+
+**Open position — MRVL:**
+- Qty 0.03346 @ avg cost $239.09, current $235.24 → **-1.61%** (stock moved <2% against us)
+- Progressive stop-loss threshold at this band: sell if *position* down 5%. Currently ~-1.6%, not triggered.
+- Take-profit not applicable (position is down, not up).
+- **Action: HOLD**, continue monitoring.
+
+**Log:**
+```
+1:18 PM CDT | HOLD | MRVL | $235.24 | -1.61% vs avg cost | stop-loss not triggered (<2% band, threshold -5%) | pos value ~$7.87
+1:18 PM CDT | SKIP-SCAN | -- | -- | -- | -- | settled cash $83.44, $80 floor leaves only $3.44 spendable (<$5 min trade) | --
+```
+
+No trade placed. I'll continue watching MRVL for stop-loss/take-profit triggers and re-check the cash floor as the day progresses (it may free up if the pending deposit settles or the position is sold near close).
