@@ -473,3 +473,23 @@ Neither position is losing >6% of starting cash territory (unrealized P&L is rou
 ```
 
 No action taken — both positions held, no room for new buys (max 2 open). Will re-check as the session progresses toward the 2:55 PM CDT force-sell cutoff.
+
+**Tick summary — 10:37 AM CDT (normal trading window, score 3+ required)**
+
+**Portfolio:** Account 782280879 active, $83.44 settled cash (above $80 floor), total value $99.64. 2/2 positions open — at max, no new buys this cycle.
+
+**Market:** SPY -0.15%, QQQ +0.35% — normal conditions.
+
+**Positions held:**
+- **AXTI**: avg cost $91.07, now $93.50 → +2.67% unrealized gain. Below take-profit thresholds (needs +7%, or +4% while dropping from high) → holding.
+- **MRVL**: avg cost $239.09, now $238.97 → -0.05% (negligible). Well inside the <2%-against-you tier (stop at -5% option-equivalent / -4% position) → holding, no action.
+
+No 6% daily loss trigger (portfolio roughly flat vs. $99.44 morning start).
+
+**Log:**
+```
+10:37 AM | HOLD | AXTI | $93.50 | — | — | +2.67% gain, below take-profit trigger | qty 0.087844
+10:37 AM | HOLD | MRVL | $238.97 | — | — | -0.05%, within normal range, no stop trigger | qty 0.033460
+```
+
+No action taken — both positions held, no room for new buys (max 2 open). Will re-check next tick toward the 2:55 PM CDT force-sell cutoff.
