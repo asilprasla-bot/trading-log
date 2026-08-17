@@ -385,3 +385,29 @@ All three real candidates cleared the momentum/volume/cap/earnings bars but fail
 ```
 
 I'll continue monitoring and rescan later in the session as new momentum sets up.
+**Tick summary — 9:26 AM CDT (market-open window, score 4+ required)**
+
+**Portfolio:** Account 782280879 active, $91.44 settled cash (above $80 floor), 1 open position (AXTI). Room for 1 more.
+
+**Market:** SPY -0.15%, QQQ +0.14% — flat/mixed, no directional constraint triggered.
+
+**AXTI position (held):** $92.40 current vs $91.07 avg cost → +1.46% unrealized gain. Below both take-profit (4%/7%) and stop-loss triggers → holding.
+
+**Candidate scan (Daily Movers list):** Screened 15 tickers for momentum (up 3–20%). Four passed the price/momentum filter — CBRS +15.5%, ALM +9.4%, ARGX +15.2%, DUOT +6.9% — but all were disqualified before scoring:
+- **ARGX** — excluded: it's argenx SE *American Depositary Shares*, explicitly banned (no ADR)
+- **DUOT** — excluded: earnings today after close (inside 3-day exclusion window)
+- **CBRS** — failed volume confirmation: today's volume 7.54M vs 30-day avg 6.37M = 1.18x (needs ≥1.5x)
+- **ALM** — failed volume confirmation: today's volume 4.63M vs 30-day avg 6.76M = 0.68x (needs ≥1.5x)
+
+Everything else on the list was flat/red or under the $5 price floor. No candidate cleared all gates, so no new buy this tick.
+
+**Log:**
+```
+9:26 AM | HOLD | AXTI | $92.40 | — | — | +1.46% gain, below take-profit/stop-loss thresholds | $8.10 held
+9:26 AM | SKIP | CBRS | $252.84 | — | — | momentum ok, volume 1.18x avg (<1.5x required) | —
+9:26 AM | SKIP | ALM  | $16.50  | — | — | momentum ok, volume 0.68x avg (<1.5x required) | —
+9:26 AM | SKIP | ARGX | $980.43 | — | — | ADR excluded by rule | —
+9:26 AM | SKIP | DUOT | $9.74   | — | — | earnings today, within 3-day exclusion | —
+```
+
+No trade this tick — held cash and existing position. Will rescan on next tick.
