@@ -667,3 +667,22 @@ No trade executed this cycle — the cash-floor rule blocks any new buy until ei
 ```
 
 No trade placed. I'll continue watching MRVL for stop-loss/take-profit triggers and re-check the cash floor as the day progresses (it may free up if the pending deposit settles or the position is sold near close).
+
+**Status check — 1:34 PM CDT, 2026-08-17**
+
+**Account 782280879:** active, cash account.
+- Raw cash: $91.77 | Buying power: $83.44 | Settled cash (min of both) = **$83.44**
+- Unsettled funds: $8.33 (T+1) | $100 pending deposit (not yet available)
+- Cash floor check: $80 floor leaves only **$3.44** headroom — still below the $5 minimum trade size. No new buy possible this cycle.
+
+**Market:** SPY $773.27 (-0.40%), QQQ $730.13 (-0.13%) — both mildly red, neither down 2%+. Normal conditions (moot — not buying).
+
+**Open position — MRVL:** 0.03346 sh @ avg cost $239.09, current $235.875 → **-1.35%** (stock moved <2% against cost). Progressive stop-loss threshold at this band requires a 5% position loss to trigger — not met. No take-profit trigger (position is down, not up). **Action: HOLD.**
+
+**Log:**
+```
+1:34 PM CDT | HOLD | MRVL | $235.88 | -1.35% vs avg cost | stop-loss not triggered (<2% band, threshold -5%) | pos value ~$7.89
+1:34 PM CDT | SKIP-SCAN | -- | -- | -- | -- | settled cash $83.44, $80 floor leaves only $3.44 spendable (<$5 min trade) | --
+```
+
+No trade placed — cash-floor constrained, same as prior ticks. Approaching the 2:00 PM CDT no-new-buys cutoff anyway. Will continue monitoring MRVL for stop-loss/take-profit and force-sell at 2:55 PM CDT.
