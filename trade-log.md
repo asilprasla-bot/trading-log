@@ -446,3 +446,11 @@ Cycle complete. Summary:
 - **Scan**: 4 momentum candidates found (ARGX, CBRS, HTHT, FDMT), all disqualified — ARGX is an ADR (banned), HTHT reported earnings this morning, and both CBRS and FDMT failed the 1.5x volume-confirmation gate.
 
 No trade placed this tick — logged and committed. Will rescan on the next tick.
+Order placed: buy $8.00 of MRVL (≈0.03346 shares) at ~$239.04, market order, currently "unconfirmed" pending fill.
+
+**Trade log:**
+```
+9:05 AM CDT | BUY | MRVL | $239.04 | 4/5 | ~2.0x | +7.9% mom, at session high, 5d trend up, vol pacing 1.9x avg, no earnings 3d | $8.00
+```
+
+Portfolio now: 2 open positions (AXTI ~$8, MRVL $8), $16 of $20 daily risk used, cash ~$83.44 (above $80 floor). This hits the max-2-positions cap — no further buys today unless one position closes. AXTI remains up ~1.9%, no action needed yet.
