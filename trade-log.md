@@ -614,3 +614,6 @@ No candidate clears the 1.5x reward:risk EV bar this tick. Skipping new buys —
 - **Holding MRVL** (-0.82%, well within stop tolerance).
 - Rescanned Daily Movers: CBRS, SWMR, VCX, RUM all passed initial momentum/price filters, but every one failed either the volume gate or the 1.5x reward:risk EV check (VCX also carries a manipulation-risk profile — thinly-floated fund down 93% from its 52-week high in days). No new buy this tick.
 - Account 782280879: ~$91.78 cash, 1/2 positions open. Logged and committed.
+The Robinhood trading tools (get_accounts, get_portfolio, get_equity_quotes, place_equity_order, etc.) referenced in the trading instructions are not available in this session — they're not connected as MCP tools. I cannot verify the account state or execute any trades right now.
+
+I don't want to guess at prices or fabricate a log entry without live data. Can you check whether the Robinhood MCP connector is enabled for this session, or reconnect it? Once the trading tools are available, I'll pick up the routine from where trade-log.md left off (last tick: 12:15 PM CDT, holding MRVL, 1/2 positions open, ~$91.78 cash).
