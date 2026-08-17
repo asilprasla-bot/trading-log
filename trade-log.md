@@ -337,3 +337,17 @@ TIME | ACTION | TICKER | PRICE | SCORE | EV RATIO | REASON | AMOUNT
 8:14 AM | OBSERVE | — | — | — | — | pre-market window, no buys per timing rules | —
 
 Will resume scanning for candidates once the 8:30 AM CDT open window begins.
+
+**Tick summary — 2026-08-17, ~8:34 AM CDT (market-open window, 8:30–9:30 AM CDT: score 4+ required)**
+
+- **Account 782280879**: active, $99.44 cash / $99.44 buying power, 0 unsettled funds, 0 open positions.
+- **Market direction**: SPY $776.46 (+0.02%), QQQ $733.40 (+0.32%) — both green, normal conditions, no market-wide stop.
+- **Scan**: Daily Movers list, filtered to NYSE/Nasdaq $5+ non-ADR names. Three passed the initial 3-20% momentum filter: IMC (+6.8%), CAPR (+7.5%), CAMP (+9.0%). NNNN (+19-23%) excluded as over-extended/blow-off. Rest of list either sub-$5, flat, or red.
+- **Research on top 3**: all fast-moving in the first ~5 min of trading —
+  - **CAPR** (Capricor Therapeutics, mcap $411M): already up ~145% intraday on 8/14 before today; kept fading off session high all cycle (ended ~6% off high) — fails "near session high" momentum gate.
+  - **CAMP** (CAMP4 Therapeutics, mcap $372M): clean 5-day uptrend, was +9% and 1.2% off high at first look, but reversed to only +1.65% by the time of order review — momentum broke below the 3% floor before execution, order not placed.
+  - **IMC** (IMC Rare Earths, mcap $909M): stayed up 6.8% and printed a fresh session high, but cumulative volume was only ~2,700 shares (~1.4% of its 2-week average) after 4-5 min of trading — fails 1.5x volume confirmation. Also carries a rough spike-to-$11.10-then-crash-to-$7.56 pattern from 8/13-8/14, i.e. thin float / manipulation risk on a sub-1-year-old Brazil-based exploration company.
+- **Decision**: no candidate cleared all gates (momentum + near-high + volume + EV). Not forcing a trade this early into a volatile open. Will rescan next tick.
+
+TIME | ACTION | TICKER | PRICE | SCORE | EV RATIO | REASON | AMOUNT
+8:34 AM | HOLD | — | — | — | — | CAPR faded off high, CAMP momentum broke (9%→1.65%) before order placed, IMC volume too thin (1.4% of avg) despite fresh high — no candidate cleared all gates | $0.00
