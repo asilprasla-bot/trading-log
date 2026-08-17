@@ -411,3 +411,30 @@ Everything else on the list was flat/red or under the $5 price floor. No candida
 ```
 
 No trade this tick — held cash and existing position. Will rescan on next tick.
+
+**Tick summary — 9:43 AM CDT (normal trading window, score 3+ required)**
+
+**Portfolio:** Account 782280879 active, $91.44 settled cash (above $80 floor), 1 open position (AXTI). Room for 1 more.
+
+**Market:** SPY -0.14%, QQQ +0.23% — flat/mixed, normal conditions.
+
+**AXTI position (held):** $91.39 current vs $91.07 avg cost → +0.35% unrealized gain. Below both take-profit and stop-loss triggers → holding.
+
+**Candidate scan (Daily Movers list):** Screened 15 non-crypto tickers. Four passed the price/momentum filter — ARGX +17.1%, CBRS +16.6%, HTHT +9.5%, FDMT +14.9% — but all were disqualified:
+- **ARGX** — excluded: argenx SE trades as an ADS/ADR on Nasdaq, banned by the no-OTC/ADR rule (consistent with earlier tick)
+- **HTHT** — excluded: reported Q2 earnings this morning (beat, $0.78 vs $0.70 est) — inside the 3-day earnings exclusion window
+- **CBRS** — failed volume confirmation: 8.07M vs 7.04M 30-day avg = 1.15x (needs ≥1.5x)
+- **FDMT** — failed volume confirmation: 431K vs 556K 30-day avg = 0.78x (needs ≥1.5x)
+
+Everything else on the list was sub-$5 or moving against momentum. No candidate cleared all gates, so no new buy this tick.
+
+**Log:**
+```
+9:43 AM | HOLD | AXTI | $91.39 | — | — | +0.35% gain, below take-profit/stop-loss thresholds | $8.03 held
+9:43 AM | SKIP | ARGX | $996.63 | — | — | ADR excluded by rule | —
+9:43 AM | SKIP | HTHT | $45.86  | — | — | earnings this morning, within 3-day exclusion | —
+9:43 AM | SKIP | CBRS | $255.40 | — | — | momentum ok, volume 1.15x avg (<1.5x required) | —
+9:43 AM | SKIP | FDMT | $14.01  | — | — | momentum ok, volume 0.78x avg (<1.5x required) | —
+```
+
+No trade this tick — held cash and existing position. Will rescan on next tick.
