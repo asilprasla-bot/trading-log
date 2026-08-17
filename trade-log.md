@@ -454,3 +454,22 @@ Order placed: buy $8.00 of MRVL (≈0.03346 shares) at ~$239.04, market order, c
 ```
 
 Portfolio now: 2 open positions (AXTI ~$8, MRVL $8), $16 of $20 daily risk used, cash ~$83.44 (above $80 floor). This hits the max-2-positions cap — no further buys today unless one position closes. AXTI remains up ~1.9%, no action needed yet.
+**Portfolio check — 10:20 AM CDT, 2026-08-17**
+
+Account 782280879 active. Cash: $83.44 (settled, all unsettled_funds=0 — above $80 floor). Total value: $99.62.
+
+**Market direction:** SPY -0.07%, QQQ +0.46% — normal conditions, no red-market restrictions.
+
+**Open positions (2/2 — at max, no new buys this cycle):**
+- **AXTI**: qty 0.087844, avg cost $91.07, now $93.31 (+2.46%). Session high $93.65 — price is within 0.4% of high, not fading. No stop-loss or take-profit trigger (needs +7%, or +4% while dropping from high).
+- **MRVL**: qty 0.033460, avg cost $239.09, now $238.88 (-0.09%). Negligible loss, well inside the <2%-against-you / 5%-stop tier. No action needed.
+
+Neither position is losing >6% of starting cash territory (unrealized P&L is roughly flat/+$0.19 net), so no emergency liquidation.
+
+**Log:**
+```
+10:20 AM | HOLD | AXTI | $93.31 | - | - | +2.46% from cost, near session high, no trigger | qty 0.087844
+10:20 AM | HOLD | MRVL | $238.88 | - | - | -0.09% from cost, within normal range | qty 0.033460
+```
+
+No action taken — both positions held, no room for new buys (max 2 open). Will re-check as the session progresses toward the 2:55 PM CDT force-sell cutoff.
