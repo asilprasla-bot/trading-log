@@ -860,3 +860,28 @@ No trade this tick. Scanned the Daily Movers watchlist — best candidate was **
 
 Portfolio now: 1 of 2 positions open (KURA ~$8), $8 of $20 daily risk used, cash ~$91.62 (above $80 floor). Will monitor for stop-loss/take-profit and rescan for a second candidate.
 Bought $8.00 of **KURA** (Kura Oncology) at ~$12.49 — scored 4/5 (momentum+volume+near-high confirmed, positive 5-day trend, $1.11B market cap, no earnings risk; missed only the SPY/QQQ tailwind point since both are red today). Skipped HAE despite a matching 4/5 score — its 5-minute chart showed violent chop that made any stop unreliable. Portfolio: 1 of 2 positions open, $8 of the $20 daily risk budget used, $91.62 cash remaining (above the $80 floor). Logged and committed. Will continue monitoring KURA against the progressive stop-loss/take-profit rules and rescan for a second candidate next tick.
+
+**Status check — 9:26 AM CDT, 2026-08-18**
+
+**Account 782280879:** active, cash account.
+- Raw cash: $91.62 | Buying power: $91.62 | Settled cash (min of both) = **$91.62** (above $80 floor)
+- Pending deposit $100 not yet spendable.
+- 1 open position: **KURA** — 0.639493 sh @ avg cost $12.51, now $12.55 (+0.32%). Equity value $8.03.
+
+**Market:** SPY $768.80 (-0.50%), QQQ $719.26 (-1.45%) — both red, neither >2%. Normal mode. Time 9:26 AM CDT — still inside 8:30-9:30 AM CDT window (score 4+ required).
+
+**Position management:** KURA moved slightly in our favor (+0.32% vs avg cost) — no stop-loss or take-profit threshold hit. Hold.
+
+**Scan for 2nd candidate:**
+- Daily Movers (20 tickers): only HAE (+15.3%) and DUOT (+19.8%) in the 3-20% band; both re-disqualified for the same reasons as prior ticks — HAE still at/near fresh 52wk high with no resistance room (EV ratio fails), DUOT market cap $364M < $500M floor. AMLX (+45%) and WEAV (+32%) over-extended (outside 3-20% band). Rest of list is red or OTC/ADR-filtered.
+- 100 Most Popular (75 non-ETF tickers, batch-checked): best movers UBER +2.61%, JNJ +2.41%, LLY +2.37%, BABA +2.30% — all below the 3% momentum floor. No qualifying candidate.
+
+**Log:**
+```
+9:26 AM CDT | CHECK | KURA | $12.55 | -- | -- | Position +0.32% vs avg cost $12.51, no stop/TP triggered, hold | --
+9:26 AM CDT | SCAN | HAE | $104.05 | 4/5 | ~0.3x | Still at fresh 52wk high, no resistance room, EV fails | SKIP
+9:26 AM CDT | SCAN | DUOT | $12.32 | 2/5 | -- | +19.8% but mcap $364M<$500M | SKIP
+9:26 AM CDT | CHECK | -- | -- | -- | -- | Cash $91.62, 1/2 positions open. SPY -0.50%, QQQ -1.45%. No 2nd candidate qualifies this scan | --
+```
+
+No trade placed. KURA held (small unrealized gain, no action needed). Full re-scan of Daily Movers and 100 Most Popular found no qualifying 2nd candidate — best movers all below the 3% momentum floor or already disqualified on cap/resistance grounds. Cash $91.62 (above $80 floor), 1 of 2 positions open. Will continue monitoring and rescan next tick.
