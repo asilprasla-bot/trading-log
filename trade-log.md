@@ -841,3 +841,4 @@ No candidate passed all screens (momentum + volume + near-high + market cap + ea
 ```
 
 No trade placed. Best candidate (HAE) scored 4/5 but failed the expected-value gate — resistance too close to justify the stop-loss risk on a stock making fresh highs with no room to run. Cash held at $99.62, no open positions. Will rescan next tick.
+No trade this tick. Scanned the Daily Movers watchlist — best candidate was **HAE** (+15.4%, score 4/5) but it failed the expected-value gate: it just hit a fresh 52-week high, so the nearest resistance target was only 1.6% away versus a 5% stop-loss risk (reward:risk ~0.33x, well under the required 1.5x). DUOT, OBX, and FLXS were disqualified on momentum/float/volume grounds. Account holds $99.62 settled cash, 0 open positions. Logged and committed; will rescan next tick.
