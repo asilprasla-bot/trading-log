@@ -859,3 +859,4 @@ No trade this tick. Scanned the Daily Movers watchlist — best candidate was **
 ```
 
 Portfolio now: 1 of 2 positions open (KURA ~$8), $8 of $20 daily risk used, cash ~$91.62 (above $80 floor). Will monitor for stop-loss/take-profit and rescan for a second candidate.
+Bought $8.00 of **KURA** (Kura Oncology) at ~$12.49 — scored 4/5 (momentum+volume+near-high confirmed, positive 5-day trend, $1.11B market cap, no earnings risk; missed only the SPY/QQQ tailwind point since both are red today). Skipped HAE despite a matching 4/5 score — its 5-minute chart showed violent chop that made any stop unreliable. Portfolio: 1 of 2 positions open, $8 of the $20 daily risk budget used, $91.62 cash remaining (above the $80 floor). Logged and committed. Will continue monitoring KURA against the progressive stop-loss/take-profit rules and rescan for a second candidate next tick.
