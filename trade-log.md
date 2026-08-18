@@ -760,3 +760,15 @@ Tick complete (2:22 PM CDT). MRVL slipped to -2.47% (into the 2–4% band, stop 
 
 No trade placed. MRVL has recovered somewhat, still comfortably inside stop tolerance. Force-sell all positions due at 2:55 PM CDT (~17 min away) — will check again before then.
 Tick logged and committed. Summary: MRVL is holding at -1.42% vs. avg cost (recovered from -2.47% last check), well within stop tolerance. No new buys — past the 2:00 PM cutoff and cash floor leaves only $3.44 of headroom (below the $5 minimum). Force-sell deadline is 2:55 PM CDT, ~17 minutes out — next check should trigger the mandatory close of MRVL if still open by then.
+Error: Reached max turns (5)
+
+---
+
+**Reconciliation note — 8:01 AM CDT, 2026-08-18**
+
+Prior session ran out of turns before it could log/commit the mandatory 2:55 PM CDT force-sell of MRVL. Account now confirms 0 open positions and settled cash of $99.62 (raw cash = buying power, no unsettled funds) — consistent with MRVL having been force-sold near breakeven as required, just never logged. No open positions to manage today.
+
+```
+8:01 AM CDT | CHECK | -- | -- | -- | -- | Reconciled: MRVL force-sell from 2026-08-17 confirmed via account state (0 positions, $99.62 cash), log entry was missed due to session max-turns cutoff | --
+8:01 AM CDT | CHECK | -- | -- | -- | -- | Portfolio $99.62 settled cash, 0 positions. SPY -0.40%, QQQ -1.24% (mildly red, neither >2%, normal mode). Pre-market window (8:00-8:30 AM CDT) — observe only, no buys yet | --
+```
