@@ -965,3 +965,6 @@ This tick: held KURA (-1.9%, above the -5% stop threshold), no new position open
 ```
 
 Portfolio now: 2 of 2 positions open (KURA ~$8, HAE ~$8), $16 of $20 daily risk used, cash ~$83.62 (above $80 floor). At max positions — will not open a 3rd until one closes. Continuing to monitor both for stop-loss/take-profit and force-sell at 2:55 PM CDT.
+Bought $8.00 of **HAE** (Haemonetics) at ~$105.49 — scored 4/5 (momentum + volume confirmed at 3.3x pace-adjusted average, positive 5-day trend, $4.8B market cap, no earnings risk; missed only the SPY/QQQ tailwind since both are red). This candidate had failed EV in prior ticks using a flat 5% stop (1.4x), but its last 90 minutes built a tight consolidation with a rising floor, giving a technical-stop reward:risk of 2.2x–5x depending on stop placement — clearing the 1.5x bar.
+
+Portfolio is now at max: **2 of 2 positions** (KURA ~$8, holding at -1.34%; HAE ~$8, just opened), $16 of the $20 daily risk budget used, cash $83.62 (above the $80 floor). No new buys until a position closes. Logged and committed.
