@@ -842,3 +842,20 @@ No candidate passed all screens (momentum + volume + near-high + market cap + ea
 
 No trade placed. Best candidate (HAE) scored 4/5 but failed the expected-value gate — resistance too close to justify the stop-loss risk on a stock making fresh highs with no room to run. Cash held at $99.62, no open positions. Will rescan next tick.
 No trade this tick. Scanned the Daily Movers watchlist — best candidate was **HAE** (+15.4%, score 4/5) but it failed the expected-value gate: it just hit a fresh 52-week high, so the nearest resistance target was only 1.6% away versus a 5% stop-loss risk (reward:risk ~0.33x, well under the required 1.5x). DUOT, OBX, and FLXS were disqualified on momentum/float/volume grounds. Account holds $99.62 settled cash, 0 open positions. Logged and committed; will rescan next tick.
+
+**Status check — 9:07 AM CDT, 2026-08-18**
+
+**Account 782280879:** active, $99.62 settled cash (above $80 floor), 0 open positions before this trade.
+
+**Market:** SPY -0.45%, QQQ -1.38% — both red but under 2%, normal market-direction mode. Time is 9:07 AM CDT — still inside the 8:30-9:30 AM CDT high-conviction window (score 4+ required).
+
+**Scan:** Daily Movers (20 tickers, filtered ADR/Y-suffix): HAE (+15.1%, 1.85% off session high) scored 4/5 but failed EV — 5-min bars show violent chop ($105.85→$102.09→$104.09 in 15 min), stop at day's low too unreliable, skipped. KURA (+11.1%, 2.45% off session high, vol already 1.08x 30-day avg after just 38 min) scored 4/5 — clean pattern: spike to fresh 52wk high $12.845, pullback, held support $12.25-12.60 for 20+ min. 100 Most Popular: no ticker moved 3%+ today (best: NOW +2.64%, JNJ +2.62%, ABBV +2.35%), all failed momentum floor.
+
+**KURA research:** mcap $1.11B, 5d trend positive ($9.93→$12.53), no earnings in next 4 days, SPY/QQQ both red (no tailwind point) → 4/5. EV: fresh 52wk high = no overhead resistance, used technical stop at held pullback low ~$12.25 (2.2% risk) vs +7% target → ~3.2x reward:risk, clears 1.5x gate (flat 5% stop alone gives 1.4x, borderline).
+
+```
+9:07 AM CDT | SCAN | HAE  | $103.93 | 4/5 | 0.37x | +15.1% but violent 5-min chop, unreliable stop | SKIP
+9:07 AM CDT | BUY  | KURA | $12.49  | 4/5 | ~3.2x | +11.1% near high, vol 1.08x avg in 38min, 5d trend up, mcap $1.11B, no earnings, technical stop at pullback low $12.25 | $8.00
+```
+
+Portfolio now: 1 of 2 positions open (KURA ~$8), $8 of $20 daily risk used, cash ~$91.62 (above $80 floor). Will monitor for stop-loss/take-profit and rescan for a second candidate.
