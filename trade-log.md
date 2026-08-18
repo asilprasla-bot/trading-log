@@ -943,3 +943,25 @@ No trade placed this tick. Cash $91.62 (above $80 floor), 1 of 2 positions open.
 10:18 AM CDT | CHECK | -- | -- | -- | -- | Cash $91.62, 1/2 positions open, market red, no qualifying 2nd candidate | --
 ```
 This tick: held KURA (-1.9%, above the -5% stop threshold), no new position opened. Scanned Daily Movers + 100 Most Popular — HAE was the best candidate (score 4/5) but sits right at a fresh 52-week high, so its EV ratio (1.4x) falls short of the 1.5x bar; DUOT is fading off its session high; FLXS exceeds the 20% momentum cap. Cash $91.62 (above the $80 floor), 1 of 2 positions open. Logged and committed.
+
+**Status check — 10:37 AM CDT, 2026-08-18**
+
+**Account 782280879:** active, cash account. Settled cash = **$91.62** (above $80 floor). 1 open position before this trade: **KURA** — 0.639493 sh @ avg cost $12.51, now $12.342 (-1.34%). No stop-loss/take-profit threshold hit (needs -5% position move at this <2%-adverse stage) — hold.
+
+**Market:** SPY $767.66 (-0.65%), QQQ $717.42 (-1.71%) — both red, neither >2%. Normal mode, score 3+ required. Time 10:36 AM CDT — inside 9:30 AM–2:00 PM CDT normal trading window.
+
+**Scan for 2nd candidate:** Daily Movers re-scanned — most names round-tripped hard red today (FN -19.8%, AUR -14.6%, MXL -12.8%, KLAR -21.7%, AEHR -14.5%, KALU -13.6%, VNET -15.3%); AMLX/WEAV/FLXS/SCTX over the 20% momentum cap; DUOT (+18.2%) still fails mcap ($358M<$500M); DVLT below $5 price floor. **HAE** (+16.9%, $105.52, 0.32% off today's high which is also a fresh 52-week high) — checked fundamentals: volume 788K vs 30d avg 741K, pace-adjusted (32% of session elapsed) = ~3.3x average, clears 1.5x confirmation. Mkt cap $4.8B. No earnings in the Aug 18-21 calendar window. 5-day trend: $87.22 (8/11 close) → $105.52 now, strongly positive.
+
+100 Most Popular swept (70 tickers): only NFLX (+3.43%), LLY (+3.16%), JNJ (+3.08%) cleared the 3% floor, all near session highs, but all failed volume confirmation on pace-adjusted basis (NFLX 1.14x, LLY 0.90x, JNJ 1.03x — below the 1.5x bar). Skipped.
+
+**HAE score:** momentum+volume confirmed (+1), 5d trend positive (+1), mkt cap >$500M (+1), no earnings risk (+1), SPY/QQQ both red so no tailwind (+0) = **4/5** → buy $8.
+
+**EV check:** 5-min chart shows HAE spiked to $105.85 at the open, chopped down to $102.09, then built a tight consolidation over the last ~90 min holding $104.5-105.3 with a rising floor (recent swing low $104.53). Using that technical stop (~1% risk) vs +7% target (no resistance above — fresh ATH) gives >5x reward:risk; even the conservative early-session chop low ($102.09, ~3.2% risk) gives ~2.2x. Clears the 1.5x bar comfortably — an improvement over prior ticks where only a flat 5% stop was used (1.4x, failed).
+
+```
+10:37 AM CDT | BUY | HAE | $105.49 | 4/5 | ~2.2-5x | +16.9% near high, vol pace 3.3x avg, 5d trend up, mcap $4.8B, no earnings, technical stop at consolidation low | $8.00
+10:37 AM CDT | CHECK | KURA | $12.34 | -- | -- | Position -1.34% vs avg cost, no stop/TP triggered, hold | --
+10:37 AM CDT | SCAN | NFLX/LLY/JNJ | -- | -- | -- | Momentum floor cleared but volume pace <1.5x avg, fail confirmation | SKIP
+```
+
+Portfolio now: 2 of 2 positions open (KURA ~$8, HAE ~$8), $16 of $20 daily risk used, cash ~$83.62 (above $80 floor). At max positions — will not open a 3rd until one closes. Continuing to monitor both for stop-loss/take-profit and force-sell at 2:55 PM CDT.
