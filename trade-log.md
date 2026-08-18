@@ -923,3 +923,22 @@ I'll keep monitoring — will re-scan and check KURA's stop-loss/profit levels o
 
 No trade placed this tick. KURA held (small unrealized loss, well under stop-loss trigger). Full rescan of Daily Movers and a liquid-names sweep found nothing clearing the momentum+volume+EV bar — broad red market day. Cash $91.62 (above $80 floor), 1 of 2 positions open. Will continue monitoring KURA and rescan next tick.
 **Tick summary (10:01 AM CDT):** Held existing KURA position (-0.56%, no stop-loss triggered). No second trade — HAE (+16.2%) failed volume confirmation, DUOT (+16.0%) was fading off its session high, FLXS (+20.3%) exceeded the momentum cap, and a broader liquid-names sweep found nothing clearing +3% on this red market day (SPY -0.65%, QQQ -1.83%). Cash $91.62, 1 of 2 positions open, $12 of the $20 daily risk budget remains. Logged and committed.
+
+**Tick summary (10:18 AM CDT / 15:20 UTC):** Held existing KURA position (0.639493 sh @ avg cost $12.51, now $12.27, -1.9%, within the <2%-adverse bracket so stop-loss threshold is -5% position — not triggered, hold). Market: SPY $767.65 (-0.65%), QQQ $716.69 (-1.81%), both red but neither >2% → normal mode, score 3+ required.
+
+Scanned Daily Movers + 100 Most Popular for a 2nd candidate:
+- **HAE** (+15.8%, $104.56, 1.2% off session high/fresh 52-wk high, vol pace-adj ~3.3x avg, mkt cap $4.76B, no earnings in 3d) — best candidate, scores 4/5 (no SPY/QQQ tailwind). But EV check fails: it's sitting right at a brand-new 52-week high, so nearest resistance is essentially at-the-money — best case (+7% target / 5% stop) only gives 1.4x reward:risk, short of the 1.5x bar. Skip.
+- **DUOT** (+17.1%, $12.04, mkt cap $358M) — 6.2% off session high, fading, fails the "within 3% of high" momentum test. Skip.
+- **FLXS** (+20.5%) — just over the 20% momentum cap. Skip.
+- AMLX (+51.5%) and WEAV (+31.8%) over-extended past the cap; CBRS/FN/MXL/AEHR/VNET all down double digits; RCON has corrupted previous-close data; DVLT below $5 price floor; several Daily Movers entries (CSLLY, SIGCY, XYIGY, DFIHY, BKEAY, JMPLD, NGCRY) are ADR/OTC-style tickers, excluded per NYSE/Nasdaq-only rule.
+- 100 Most Popular sweep: broad red day, nothing showing real up-momentum.
+
+No trade placed this tick. Cash $91.62 (above $80 floor), 1 of 2 positions open. Will continue monitoring KURA's stop-loss/take-profit and rescan next tick.
+
+```
+10:18 AM CDT | CHECK | KURA | $12.27 | -- | -- | Position -1.9% vs avg cost, no stop/TP triggered, hold | --
+10:18 AM CDT | SCAN | HAE | $104.56 | 4/5 | 1.4x | Fresh 52wk high, EV ratio short of 1.5x bar | SKIP
+10:18 AM CDT | SCAN | DUOT | $12.04 | -- | -- | +17.1% but 6.2% off session high, fading | SKIP
+10:18 AM CDT | SCAN | FLXS | $85.38 | -- | -- | +20.5%, exceeds momentum cap | SKIP
+10:18 AM CDT | CHECK | -- | -- | -- | -- | Cash $91.62, 1/2 positions open, market red, no qualifying 2nd candidate | --
+```
