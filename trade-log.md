@@ -813,3 +813,31 @@ No other candidate crossed the +3% momentum threshold (closest: JNJ +2.30%, LLY 
 ```
 
 No trade placed. Both momentum candidates found failed a hard screen (crash-bounce risk / earnings blackout). Cash held at $99.62, no open positions. Will rescan next tick.
+
+**Status check — 8:50 AM CDT, 2026-08-18**
+
+**Account 782280879:** active, cash account.
+- Raw cash: $99.62 | Buying power: $99.62 | Settled cash (min of both) = **$99.62**
+- No open equity positions. No unsettled funds ($100 pending deposit not yet spendable).
+
+**Market:** SPY $768.50 (-0.54%), QQQ $719.41 (-1.43%) — both mildly red, neither down 2%+. Normal mode by market-direction rule, but 8:30-9:30 AM CDT window requires score 4+ for entry.
+
+**Scan — Daily movers watchlist:** 20 items, mostly OTC/ADR (Y-suffix unsponsored ADRs: MRAAY, CSLLY, IESFY, DFIHY, BKEAY, NGCRY — excluded) or foreign ADRs on major exchanges (BIDU, HSAI, VNET — excluded per no-ADR rule). Of the remainder, momentum candidates (up 3-20%):
+- **HAE** +15.4% ($104.13), near session high (high $105.85, only 1.6% off) — passed momentum+volume (day volume already 43% of full-day average 20min into session). 5d trend positive, mcap $4.7B, no earnings in window. Score 4/5 (SPY/QQQ red = only miss). **EV check failed**: nearest resistance is today's own high at $105.85 (+1.6%), far short of 1.5x the 5% stop-loss risk (reward:risk ~0.33x). Stock just made a fresh 52-wk high and is choppy (5-min bars swung 102.0-105.85-102.35-104.09) — no room to a valid target. Skipped.
+- **DUOT** +18.7% ($12.20) — failed near-session-high test (session high $12.70, currently 3.9% off, just outside the 3% band). Market cap $364M, under the $500M scoring threshold. Skipped.
+- **OBX** (Obsidian Therapeutics) +14.3% ($19.30) — thin float (963K shares vs 61.8M shares out), violent 52-wk range ($50→$14.57 low set yesterday), volume today only ~1.3x pace (weak confirmation). Manipulation/whipsaw risk too high. Skipped.
+- **FLXS** +8.9% intraday but faded hard off session high ($84.00 → $77.13, -8.2%) — fails near-high momentum test, matches the "dropping from session high" pattern. Skipped.
+- AMLX (+35%) and WEAV (+32%) excluded — outside the 3-20% momentum band (over-extended).
+
+No candidate passed all screens (momentum + volume + near-high + market cap + earnings + EV ratio ≥1.5x). Per Step 7, skipping rather than forcing a sub-1.5x trade.
+
+**Log:**
+```
+8:50 AM CDT | SCAN | HAE | $104.13 | 4/5 | 0.33x | +15.4% vol 2wk-avg, near 52wk high, but resistance only 1.6% away vs 5% stop -- EV ratio fails 1.5x min | SKIP
+8:50 AM CDT | SCAN | DUOT | $12.20 | 2/5 | -- | +18.7% but 3.9% off session high (fails near-high test), mcap $364M<$500M | SKIP
+8:50 AM CDT | SCAN | OBX | $19.30 | -- | -- | thin float (963K), violent 52wk range, weak volume confirmation | SKIP
+8:50 AM CDT | SCAN | FLXS | $77.13 | -- | -- | +8.9% but faded 8.2% off session high | SKIP
+8:50 AM CDT | CHECK | -- | -- | -- | -- | Cash $99.62, 0 positions. SPY -0.54%, QQQ -1.43%. No qualifying candidate this scan | --
+```
+
+No trade placed. Best candidate (HAE) scored 4/5 but failed the expected-value gate — resistance too close to justify the stop-loss risk on a stock making fresh highs with no room to run. Cash held at $99.62, no open positions. Will rescan next tick.
