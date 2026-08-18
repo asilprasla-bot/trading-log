@@ -790,3 +790,26 @@ Prior session ran out of turns before it could log/commit the mandatory 2:55 PM 
 ```
 
 No trade placed — pre-market observation window. Will scan for candidates once the 8:30 AM CDT market-open window begins (score 4+ required for high-conviction entries between 8:30–9:30 AM CDT).
+
+**Status check — 8:32 AM CDT, 2026-08-18**
+
+**Account 782280879:** active, cash account.
+- Raw cash: $99.62 | Buying power: $99.62 | Settled cash (min of both) = **$99.62**
+- No open equity positions.
+
+**Market:** SPY $768.70 (-0.51%), QQQ $720.53 (-1.28%) — both mildly red, neither down 2%+. Normal mode. Timing: 8:30–9:30 AM CDT window → score 4+ required for any buy.
+
+**Scan — Daily Movers watchlist:** mostly OTC/ADR-style tickers (5-letter, ending in Y — e.g. NEXOY, IESFY, CHFFY) filtered out per NYSE/Nasdaq-only rule. Of the remaining names (ARGX, CBRS, AXTI, VCX, FTK, ENVX, FDMT, ENHA, BALY, EYPT, TMCR, AIAI), only **EYPT** was up 3–20% (+6.57%). Investigated further and disqualified: EYPT crashed ~67% the prior session (from $14.75 to ~$4, setting a fresh 52-week low) — today's bounce is a dead-cat bounce off a crash, not real momentum. 5-day trend is deeply negative and market cap is $446M (below the $500M scoring threshold) → would score only 2/5 even ignoring the crash risk. Skipped.
+
+**Scan — 100 Most Popular watchlist:** checked all 73 non-ETF tickers. Only **BABA** was in the 3–20% up range (+3.18%, $128.68). Disqualified: earnings report scheduled 2026-08-20 (2 days out), inside the 3-day earnings-blackout rule. Skipped.
+
+No other candidate crossed the +3% momentum threshold (closest: JNJ +2.30%, LLY +2.10%, XOM +2.07% — all below the momentum floor).
+
+**Log:**
+```
+8:32 AM CDT | SCAN | EYPT | $5.19 | 2/5 | -- | +6.57% but dead-cat bounce off 67% crash, fresh 52wk low, mcap $446M<$500M | SKIP
+8:32 AM CDT | SCAN | BABA | $128.68 | -- | -- | +3.18% momentum ok but earnings 2026-08-20 (2 days out) | SKIP
+8:32 AM CDT | CHECK | -- | -- | -- | -- | Cash $99.62, 0 positions. SPY -0.51%, QQQ -1.28%. No qualifying candidate this scan | --
+```
+
+No trade placed. Both momentum candidates found failed a hard screen (crash-bounce risk / earnings blackout). Cash held at $99.62, no open positions. Will rescan next tick.
