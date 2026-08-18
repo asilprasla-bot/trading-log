@@ -942,3 +942,4 @@ No trade placed this tick. Cash $91.62 (above $80 floor), 1 of 2 positions open.
 10:18 AM CDT | SCAN | FLXS | $85.38 | -- | -- | +20.5%, exceeds momentum cap | SKIP
 10:18 AM CDT | CHECK | -- | -- | -- | -- | Cash $91.62, 1/2 positions open, market red, no qualifying 2nd candidate | --
 ```
+This tick: held KURA (-1.9%, above the -5% stop threshold), no new position opened. Scanned Daily Movers + 100 Most Popular — HAE was the best candidate (score 4/5) but sits right at a fresh 52-week high, so its EV ratio (1.4x) falls short of the 1.5x bar; DUOT is fading off its session high; FLXS exceeds the 20% momentum cap. Cash $91.62 (above the $80 floor), 1 of 2 positions open. Logged and committed.
