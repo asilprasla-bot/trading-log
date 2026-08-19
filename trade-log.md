@@ -1494,3 +1494,16 @@ Per today's override, no new buys are being evaluated. Neither position breaches
 ```
 
 I'll continue monitoring for the 2% fast-exit trigger and the 2:55 PM CDT force-sell. No new buys today per the override.
+PPC sell order placed (id `6a85d49b…`) — market sell of 0.244649 shares, currently `unconfirmed` (submitted, awaiting fill). TEM remains held (+2.4%, below take-profit threshold).
+
+Logging the action and closing out today's check per the no-new-buys override.
+
+**LOG**
+```
+TIME     | ACTION | TICKER | PRICE   | SCORE | EV RATIO | REASON                                      | AMOUNT
+11:06 AM | SELL   | PPC    | $31.93  | N/A   | N/A      | Fast-exit override: -2.45% vs entry ($32.70)| ~$7.80
+11:06 AM | HOLD   | TEM    | $59.35  | N/A   | N/A      | +2.4% vs entry, below take-profit threshold | —
+11:06 AM | HOLD   | CASH   | —       | N/A   | N/A      | No new buys today (temp override)           | $81.41
+```
+
+Summary: Sold PPC (was down 2.45%, breached today's tightened 2% fast-exit rule). Holding TEM (up 2.4%, not yet at take-profit). No new buys per today's override — will continue monitoring TEM and force-sell everything by 2:55 PM CDT.
