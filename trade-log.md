@@ -1315,3 +1315,35 @@ All three candidates score 5/5 but none clear the 1.5x reward:risk gate — each
 ```
 
 No trade this cycle — three strong-momentum, high-score candidates all failed the mandatory EV/reward-risk gate because each had already moved close to nearby resistance (or, for MRVL, had no visible headroom beyond a standard +7% cap) relative to a 5% stop. Holding $99.41 cash flat. Will rescan next tick as price action develops through the open.
+
+---
+**Tick — 8:53 AM CDT (2026-08-19)**
+
+**Step 1 — Portfolio:** Account 782280879 active. Cash: $99.41 (settled, no unsettled funds). Buying power: $99.41. Total value: $99.41. No open equity positions — flat.
+
+**Step 2 — Market direction:** SPY $768.84 (+0.18%), QQQ $715.29 (-0.31%) — neither down 2%+ → normal regime, but window below requires score 4+.
+
+Window: 8:30–9:30 AM CDT (market just opened) → high conviction only, score 4+ required.
+
+**Step 3 — Manage positions:** None open, nothing to manage.
+
+**Step 4/5/6 — Scan, research, score:** Daily Movers watchlist: **BNTX** (+19.4%, near high, volume 2.6x avg) initially looked strong but is disqualified — "BioNTech SE American Depositary Share" violates the no-ADR rule. **EL** (+17.7%) and **KC** (+9.2%) both reported earnings this morning — disqualified (earnings-today risk). **TEM** faded 5.8% off its session high (fails momentum-confirmation). **TWST** near its high (+18.9%, 2.1% off high) but volume only 0.47x its 30-day average — fails volume confirmation. Broadened scan via 100-Most-Popular watchlist surfaced six more names up 3–20%: **PFE** (+3.3%), **LLY** (+4.6%), **MRVL** (+7.4%), **NOW** (+3.2%), **MRK** (+10.6%), **COIN** (+3.1%) — none have earnings in the next 3 days. Checked session-high proximity and volume (vs 30-day avg):
+- PFE: 0.3% off high, volume 0.27x avg — fails volume.
+- LLY: 0.6% off high (new 52-wk high today), volume 0.38x avg — fails volume.
+- MRVL: 5.5% off high (already fading) — fails momentum-confirmation.
+- NOW: 0.4% off high, volume 0.09x avg — fails volume badly.
+- MRK: 0.3% off high (new 52-wk high today), volume 0.86x avg — closest, still fails the 1.5x volume gate.
+- COIN: 0.9% off high, volume 0.21x avg — fails volume.
+
+Only ~25 minutes into the session, so partial-day volume compared against full-day averages is systematically low across the board — expected, not a stock-specific red flag. No candidate reached the mandatory 1.5x volume confirmation, so none proceeded to EV scoring.
+
+```
+8:53 AM | SKIP | BNTX | $110.73 | — | — | disqualified: ADR, violates no-OTC/ADR rule | —
+8:53 AM | SKIP | EL   | $99.18  | — | — | earnings reported this morning, disqualified | —
+8:53 AM | SKIP | KC   | $11.84  | — | — | earnings reported this morning, disqualified | —
+8:53 AM | SKIP | TWST | $138.09 | — | — | up 18.9% near high but volume 0.47x avg, fails | —
+8:53 AM | SKIP | MRK  | $149.50 | — | — | up 10.6%, new 52wk high, volume only 0.86x avg | —
+8:53 AM | SKIP | PFE/LLY/NOW/COIN | — | — | — | up 3-8% but volume 0.1-0.4x avg, fails | —
+```
+
+No trade this cycle — the only candidate with genuinely strong relative volume (BNTX) is disqualified as a foreign ADR, and every legitimate US-listed mover still has thin volume this early in the session. Holding $99.41 cash flat. Will rescan next tick as volume builds through the morning.
