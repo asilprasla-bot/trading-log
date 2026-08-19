@@ -1377,3 +1377,43 @@ No candidate cleared all three gates (earnings, near-high, volume) simultaneousl
 ```
 
 No trade this cycle — still only ~40 minutes into the session, so full-day volume averages remain hard to clear. Holding $99.41 cash flat. Will rescan next tick.
+
+---
+**Tick — 9:27 AM CDT (2026-08-19)**
+
+**Step 1 — Portfolio:** Account 782280879 active. Cash: $99.41 (settled, no unsettled funds). Buying power: $99.41. Total value: $99.41. No open equity positions — flat. No loss today (cash unchanged since prior ticks) — well under 6% stop.
+
+**Step 2 — Market direction:** SPY $769.33 (+0.25%), QQQ $713.39 (-0.58%) — neither down 2%+ → normal regime.
+
+Window: 8:30–9:30 AM CDT (market just opened) → high conviction only, score 4+ required.
+
+**Step 3 — Manage positions:** None open, nothing to manage.
+
+**Step 4/5/6 — Scan, research, score:** Daily Movers refreshed: NBIS/AXTI/AEHR/LZB/BLZE/BTBT now down; MRNA (+156.8%) and MRVI (+28.1%) exceed 20% band; DRD (+14.3%) excluded as foreign ADR (DRDGold); BTBT/ASTL below $5 or too illiquid. In-range movers: EL (+16.3%, earnings today — disqualified per prior tick), TEM (+13.8%), TWST (+16.7%), PPC (+13.6%). From 100-Most-Popular: PFE (+4.2%), LLY (+5.0%), MRVL (+6.9%), NOW (+4.1%), MRK (+10.6%), COIN (+6.2%) — QCOM/TSLA/HOOD/PLTR under 3%; NVDA/AMD/IONQ/RGTI/QBTS red. Earnings calendar (4-day window) confirms none of TEM/TWST/PPC/PFE/LLY/MRVL/NOW/MRK/COIN report soon.
+
+Checked session-high proximity and volume vs 30-day avg:
+- **TEM**: 4.8% off high — fails momentum. Vol 1.22x avg — also fails.
+- **TWST**: 4.0% off high — fails momentum. Vol 0.78x avg — fails.
+- **PPC**: 1.0% off high ✓. Vol 0.73x avg — fails volume.
+- **PFE**: 0.04% off high ✓. Vol 0.47x avg — fails volume.
+- **LLY**: 0.40% off high ✓ (new 52wk high). Vol 0.58x avg — fails volume.
+- **MRVL**: 5.9% off high — fails momentum (faded from open).
+- **NOW**: 0.45% off high ✓. Vol 0.15x avg — fails volume badly.
+- **MRK**: 1.55% off high ✓ (new 52wk high). Vol 1.37-1.38x avg — closest, still short of 1.5x gate.
+- **COIN**: 0.29% off high ✓. Vol 0.40x avg — fails volume.
+
+No candidate cleared all gates. MRK remains the closest but still under the 1.5x volume bar.
+
+```
+9:27 AM | SKIP | TEM  | $56.19  | — | — | 4.8% off high (fading), vol 1.22x avg | —
+9:27 AM | SKIP | TWST | $135.48 | — | — | 4.0% off high (fading), vol 0.78x avg | —
+9:27 AM | SKIP | PPC  | $32.37  | — | — | near high but vol only 0.73x avg | —
+9:27 AM | SKIP | PFE  | $28.40  | — | — | near high but vol only 0.47x avg | —
+9:27 AM | SKIP | LLY  | $1287.44| — | — | new 52wk high but vol only 0.58x avg | —
+9:27 AM | SKIP | MRVL | $230.93 | — | — | 5.9% off high (faded from open) | —
+9:27 AM | SKIP | NOW  | $124.39 | — | — | near high but vol only 0.15x avg | —
+9:27 AM | SKIP | MRK  | $149.45 | — | — | new 52wk high, vol 1.37x avg, just short of 1.5x gate | —
+9:27 AM | SKIP | COIN | $155.25 | — | — | near high but vol only 0.40x avg | —
+```
+
+No trade this cycle — volume confirmation remains the binding constraint less than an hour into the session; several names are near session highs with no earnings risk but haven't built enough relative volume yet. Holding $99.41 cash flat. Will rescan next tick.
