@@ -1458,3 +1458,16 @@ Will continue monitoring both positions against the -2% fast-exit line and the 2
 - **TEM**: entry $57.94, now $57.38 (-0.97%) — holding, well inside the -2% fast-exit line
 
 No take-profit or fast-exit triggers hit. Skipped scan/research/buy steps per override. Logged HOLD and committed. Will keep monitoring both positions against the -2% line and the 2:55 PM CDT force-sell.
+
+---
+**10:35 AM CDT tick — TEMPORARY OVERRIDE ACTIVE (2026-08-19): no new buys today.**
+
+Portfolio: $81.41 cash, total value $99.38. Two open positions (max):
+- PPC: 0.244649 sh, entry $32.70, now $32.17 → -1.62% (fast-exit trigger is -2%, not hit)
+- TEM: 0.172562 sh, entry $57.95, now $58.515 → +0.98% (take-profit trigger is +7% or +4% w/ pullback, not hit)
+
+Neither position has moved against entry by 2%+ (override fast-exit) nor is up 7%+ / 4%+-with-pullback (take-profit). Per override, skipping scan/research/buy steps entirely.
+
+`10:35 AM CDT | HOLD | PPC/TEM | PPC $32.17 (-1.62%), TEM $58.515 (+0.98%) | — | — | override: no new buys, neither hit -2% fast-exit or take-profit | —`
+
+Will continue monitoring both positions against the -2% fast-exit line and the 2:55 PM CDT force-sell.
