@@ -1636,3 +1636,6 @@ Falling back to last confirmed state (from the prior tick, ~12:57 PM CDT): accou
 TIME    | ACTION | TICKER | PRICE | SCORE | EV RATIO | REASON                                                          | AMOUNT
 1:27 PM | HOLD   | —      | —     | N/A   | N/A      | Trading tools unavailable this tick; last known state flat, no buys allowed today anyway | —
 ```
+The Robinhood trading tools aren't reachable this tick — the MCP server config looks fine (valid token, not expiring until 2026-08-28), but no tools resolve, so this appears to be a connectivity issue rather than an auth problem. I didn't fabricate any account/position data.
+
+Based on the last confirmed state (12:57 PM CDT): account 782280879 was flat with no open positions and ~$99.63 cash. Since today's override blocks all new buys regardless of tool access, there's no immediate risk from this gap — but if a position somehow got opened outside what this session can see, the fast-exit/force-sell rules couldn't be enforced right now. I logged a HOLD noting the issue and flagging it for you to check the MCP connection before the next tick.
