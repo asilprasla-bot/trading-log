@@ -1347,3 +1347,33 @@ Only ~25 minutes into the session, so partial-day volume compared against full-d
 ```
 
 No trade this cycle — the only candidate with genuinely strong relative volume (BNTX) is disqualified as a foreign ADR, and every legitimate US-listed mover still has thin volume this early in the session. Holding $99.41 cash flat. Will rescan next tick as volume builds through the morning.
+
+---
+**Tick — 9:10 AM CDT (2026-08-19)**
+
+**Step 1 — Portfolio:** Account 782280879 active. Cash: $99.41 (settled). Buying power: $99.41. Total value: $99.41. No open equity positions — flat.
+
+**Step 2 — Market direction:** SPY $769.80 (+0.31%), QQQ $714.26 (-0.45%) — neither down 2%+ → normal regime.
+
+Window: 8:30–9:30 AM CDT (market just opened) → high conviction only, score 4+ required.
+
+**Step 3 — Manage positions:** None open, nothing to manage.
+
+**Step 4/5/6 — Scan, research, score:** Daily Movers watchlist filtered to price≥$5, 3–20% range: **EL** (+16.4%), **TWST** (+17.2%), **PPC** (+13.6%), **TEM** (+13.9%). Excluded: NBIS/AXTI/AEHR/LZB/BLZE down; MRNA (+130%, extreme earnings-gap spike) and BNTX (+23.5%) and MRVI (+30%) exceed 20% momentum band; BTBT/ASTL below $5; KGBLY/PTBRY/HLFDY/WYFI/EIKN excluded as OTC-style ADRs.
+
+Checked session-high proximity, volume vs avg, and earnings:
+- **EL**: 1.7% off session high ✓, volume 1.7-1.8x avg ✓ — but reports earnings *this morning* (beat, $0.39 vs $0.32 est). Disqualified — earnings-today risk.
+- **TWST**: 3.6% off session high — fails momentum-confirmation. Volume also only 0.62x avg.
+- **PPC**: 0.3% off session high ✓, but volume only 0.55x avg — fails volume confirmation.
+- **TEM**: 4.8% off session high — fails momentum-confirmation. Volume 1.1-1.4x avg, also short of 1.5x.
+
+No candidate cleared all three gates (earnings, near-high, volume) simultaneously.
+
+```
+9:10 AM | SKIP | EL   | $98.10  | — | — | near high + vol 1.7x but earnings today, disqualified | —
+9:10 AM | SKIP | TWST | $136.07 | — | — | 3.6% off high (fading), vol 0.62x avg, fails both | —
+9:10 AM | SKIP | PPC  | $32.35  | — | — | near high but vol only 0.55x avg, fails volume | —
+9:10 AM | SKIP | TEM  | $56.20  | — | — | 4.8% off high (fading), vol 1.1-1.4x avg | —
+```
+
+No trade this cycle — still only ~40 minutes into the session, so full-day volume averages remain hard to clear. Holding $99.41 cash flat. Will rescan next tick.
