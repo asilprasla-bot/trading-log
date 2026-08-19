@@ -1279,3 +1279,6 @@ Pre-market window (8:00–8:30 AM CDT) — observe only, no buys this cycle.
 ```
 8:00 AM | OBSERVE | — | — | pre-market | flat, $99.41 cash, no positions, waiting for 8:30 AM open
 ```
+The Robinhood trading tools referenced in my instructions (get_accounts, get_portfolio, get_equity_quotes, place_equity_order, etc.) aren't available in this session — they don't appear anywhere in the tool registry, deferred or otherwise. I can't check account 782280879's balance, positions, or place any trades right now.
+
+This looks like a broken/missing MCP connection rather than something I can work around. Do you want me to check anything else, or do you know if the trading MCP server needs to be reconnected on your end?
