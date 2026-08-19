@@ -1282,3 +1282,36 @@ Pre-market window (8:00–8:30 AM CDT) — observe only, no buys this cycle.
 The Robinhood trading tools referenced in my instructions (get_accounts, get_portfolio, get_equity_quotes, place_equity_order, etc.) aren't available in this session — they don't appear anywhere in the tool registry, deferred or otherwise. I can't check account 782280879's balance, positions, or place any trades right now.
 
 This looks like a broken/missing MCP connection rather than something I can work around. Do you want me to check anything else, or do you know if the trading MCP server needs to be reconnected on your end?
+
+---
+**Tick — 8:31 AM CDT (2026-08-19)**
+
+**Step 1 — Portfolio:** Account 782280879 active. Cash: $99.41 (settled). Buying power: $99.41. Total value: $99.41. No open equity positions — flat.
+
+**Step 2 — Market direction:** SPY $770.49 (+0.40%), QQQ $720.46 (+0.41%) — both green, neither down 2%+ → normal trading regime.
+
+Window: 8:30–9:30 AM CDT (market just opened) → high conviction only, score 4+ required.
+
+**Step 3 — Manage positions:** None open, nothing to manage.
+
+**Step 4 — Scan:** `get_scans`/`get_indexes` MCP tools returned permission errors this cycle, so screened via Daily Movers watchlist + 100 Most Popular watchlist instead. Daily Movers had no tickers up 3%+ (best was AAOI +2.5%, several ADR-tagged tickers excluded per no-ADR rule). Popular-list scan surfaced three movers clearing the 3–20% momentum bar with price-near-high and strong opening relative volume: **MRK** (+7.6%), **MRVL** (+12.25%), **QCOM** (+3.2%).
+
+**Step 5/6 — Research & score (all 3 candidates):**
+- **MRK**: mkt cap $359B, no earnings in next 4 days, 5-day trend up (132.92→145.45), near session high (2.4% off). Score 5/5.
+- **MRVL**: mkt cap $212B, no earnings in next 4 days, 5-day trend up (217.08→242.47), essentially at session high. Score 5/5.
+- **QCOM**: mkt cap $174B, no earnings in next 4 days, 5-day trend up (163.07→165.32), near session high (0.2% off). Score 5/5.
+
+**Step 7 — EV check (upside = nearest resistance or +7%, whichever is closer; downside = 5% stop; need ≥1.5x):**
+- MRK: nearest resistance = today's high $149.02 (+2.4%) → ratio 2.4/5 = 0.5x. **Fails.**
+- MRVL: no resistance visible within 5-day window (already broke above it) → capped at +7% → ratio 7/5 = 1.4x. **Fails (just under 1.5x).**
+- QCOM: nearest resistance = recent 5-day swing high ~$166.9 (+0.98%) → ratio 0.98/5 = 0.2x. **Fails.**
+
+All three candidates score 5/5 but none clear the 1.5x reward:risk gate — each has already run too far from its own entry point relative to a 5% stop to offer favorable risk/reward on a fresh entry right now.
+
+```
+8:31 AM | SKIP | MRK  | $145.45 | 5/5 | 0.5x | up 7.6% but resistance only 2.4% away, EV fails | —
+8:31 AM | SKIP | MRVL | $242.47 | 5/5 | 1.4x | up 12.25%, no resistance data, capped +7%, EV narrowly fails | —
+8:31 AM | SKIP | QCOM | $165.32 | 5/5 | 0.2x | up 3.2%, resistance only 1% away, EV fails | —
+```
+
+No trade this cycle — three strong-momentum, high-score candidates all failed the mandatory EV/reward-risk gate because each had already moved close to nearby resistance (or, for MRVL, had no visible headroom beyond a standard +7% cap) relative to a 5% stop. Holding $99.41 cash flat. Will rescan next tick as price action develops through the open.
