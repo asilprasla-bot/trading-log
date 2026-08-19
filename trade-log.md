@@ -1417,3 +1417,10 @@ No candidate cleared all gates. MRK remains the closest but still under the 1.5x
 ```
 
 No trade this cycle — volume confirmation remains the binding constraint less than an hour into the session; several names are near session highs with no earnings risk but haven't built enough relative volume yet. Holding $99.41 cash flat. Will rescan next tick.
+**Summary — 9:27 AM CDT tick, no trade.**
+
+Portfolio: $99.41 cash, no open positions, flat for the day (well under the 6% loss stop). SPY/QQQ both roughly flat, normal regime.
+
+Scanned Daily Movers + 100-Most-Popular for 3-20% momentum names. Nine candidates were near session highs and clear of earnings risk (TEM, TWST, PPC, PFE, LLY, MRVL, NOW, MRK, COIN), but **all failed volume confirmation** (need ≥1.5x 30-day average) — MRK came closest at 1.37x. This is consistent with the pattern all morning: real volume hasn't built up yet against full-day averages this early in the session.
+
+No trade this cycle. Logged and committed. Will rescan next tick as volume develops through the morning.
