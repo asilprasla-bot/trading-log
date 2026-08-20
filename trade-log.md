@@ -1731,3 +1731,4 @@ Account 782280879 (••••2879) active, cash $99.63, buying power $99.63, n
 TIME    | ACTION | TICKER | PRICE  | SCORE | EV RATIO | REASON                                          | AMOUNT
 8:48 AM | HOLD   | —      | —      | N/A   | N/A      | No candidate cleared volume confirmation (1.5x)  | —
 ```
+**Summary (8:48 AM CDT tick):** Account healthy — $99.63 cash, no open positions, both within limits. Scanned Daily Movers; 4 tickers (BULL, XXI, ETHB, SOC) cleared the momentum filter but all failed the 1.5x volume-confirmation threshold since the market just opened ~18 minutes ago. No trade placed — logged a HOLD and committed. Will rescan on the next tick once volume builds.
