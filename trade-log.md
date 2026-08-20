@@ -1682,3 +1682,13 @@ Per today's override, no new buys are permitted regardless of signals, and there
 **12:XX PM | HOLD | — | — | — | — | No-buy override in effect for 2026-08-19; flat, no open positions | $0.00**
 
 Nothing further to do — will continue checking for open positions on future ticks per the fast-exit rule, but no new trades today.
+
+**Status check — 2026-08-20, 8:00 AM CDT**
+
+Temporary override from 2026-08-19 no longer applies (today is 2026-08-20) — normal rules in effect. Account 782280879 (••••2879) active, cash $99.63, buying power $99.63, no unsettled funds. No open positions. SPY $765.88 (-0.41% vs prior close $769.06), QQQ $711.97 (-0.57% vs prior close $716.08) — both slightly red but well within normal range (neither down >2%). Currently in the 8:00-8:30 AM CDT pre-market window: observe only, no new buys per timing rules regardless of any score. Logging a HOLD.
+
+**LOG**
+```
+TIME    | ACTION | TICKER | PRICE | SCORE | EV RATIO | REASON                                              | AMOUNT
+8:00 AM | HOLD   | —      | —     | N/A   | N/A      | Pre-market window (8:00-8:30 CDT), observe only, no positions to manage | —
+```
