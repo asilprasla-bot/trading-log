@@ -2085,3 +2085,23 @@ Neither position at stop-loss or take-profit thresholds. Max positions (2/2) alr
 ```
 **Status — 2:16 PM CDT:** TEM still in the 2-4% stop-loss band (-2.34%, trigger at -4%), MRVI essentially flat (+0.13%). Neither hit stop-loss or take-profit. 2/2 slots filled, no new buys possible. Cash $83.63, above the $80 floor. Force-sell deadline at 2:55 PM CDT is ~39 minutes away — next check should come soon given the approaching deadline.
 **2:16 PM CDT tick complete.** No triggers hit — TEM is -2.34% (in the 2-4% stop band, fires at -4%), MRVI is flat at +0.13%. Both positions held, 2/2 slots filled so no new buys possible. Cash $83.63, above floor. Force-sell deadline is ~39 minutes out (2:55 PM CDT) — next check should come soon given how close TEM is drifting toward its stop.
+
+**Status check — 2026-08-20, 2:32 PM CDT**
+
+Account 782280879 (••••2879) active, cash $83.63 (above $80 floor), total value $99.34, 2/2 positions open (TEM, MRVI). In the "no new buys, manage positions only" window (2:00-2:55 PM CDT) — moot anyway since both slots are filled.
+
+**Step 2 — Market direction:** SPY $763.28 (-0.75% vs prior close), QQQ $710.78 (-0.74% vs prior close) — both red but neither past -2%.
+
+**Position management:**
+- **TEM**: avg cost $68.36 → now $66.30 (-3.01% vs entry). In the 2-4% band → stop triggers at position down 4%. No action yet, but drifting closer to the stop — watch closely.
+- **MRVI**: avg cost $8.27 → now $8.225 (-0.54% vs entry). In the <2% band → stop triggers at position down 5%. No action.
+
+Neither position at stop-loss or take-profit thresholds. Max positions (2/2) already held, so no scan/research/buy this tick.
+
+```
+2:32 PM | HOLD | TEM  | $66.30 | -3.01% vs entry | within 2-4% band, stop at -4% | pos held
+2:32 PM | HOLD | MRVI | $8.225 | -0.54% vs entry | within <2% band, stop at -5%  | pos held
+2:32 PM | INFO | -    | -      | max 2 positions open, cash $83.63 | no new buys possible | -
+```
+
+**Status — 2:32 PM CDT:** TEM continuing to drift in the 2-4% stop-loss band (-3.01%, trigger at -4%), MRVI essentially flat (-0.54%). Neither hit stop-loss or take-profit. 2/2 slots filled, no new buys possible. Cash $83.63, above the $80 floor. Force-sell deadline at 2:55 PM CDT is ~23 minutes away — next check should come soon given TEM's continued drift toward its stop.
