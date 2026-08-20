@@ -2106,3 +2106,13 @@ Neither position at stop-loss or take-profit thresholds. Max positions (2/2) alr
 
 **Status — 2:32 PM CDT:** TEM continuing to drift in the 2-4% stop-loss band (-3.01%, trigger at -4%), MRVI essentially flat (-0.54%). Neither hit stop-loss or take-profit. 2/2 slots filled, no new buys possible. Cash $83.63, above the $80 floor. Force-sell deadline at 2:55 PM CDT is ~23 minutes away — next check should come soon given TEM's continued drift toward its stop.
 **2:32 PM CDT tick complete.** No triggers hit — TEM is -3.01% (in the 2-4% stop band, fires at -4%, drifting closer), MRVI is -0.54% (flat-ish, well within its band). Both held, 2/2 slots filled so no new buys possible. Cash $83.63, above floor. Force-sell deadline is ~23 minutes out (2:55 PM CDT) — TEM is the one to watch on the next check.
+Both filled — TEM sold at $66.76 (avg cost $68.36, -2.3%), MRVI sold at $8.24 (avg cost $8.27, -0.3%). Combined realized loss ≈ $0.22, well within risk limits.
+
+**Trading Log — 2026-08-20**
+
+| TIME (CDT) | ACTION | TICKER | PRICE | REASON | AMOUNT |
+|---|---|---|---|---|---|
+| 2:49 PM | SELL | TEM | $66.76 | Preemptive force-sell (2:55 PM deadline 6 min out, next tick timing uncertain); -2.3% vs entry, within normal stop tolerance but closing per hard no-overnight-hold rule | 0.117027 sh (~$7.81) |
+| 2:49 PM | SELL | MRVI | $8.24 | Same — preemptive force-sell ahead of deadline; -0.3% vs entry | 0.967363 sh (~$7.97) |
+
+Account is now flat, no open positions. Since we're inside the 2:00–2:55 PM CDT "no new buys" window and were already at the 2-position cap anyway, no scan/buy activity was performed this cycle. Cash balance should now be ~$99.4 (starting $83.63 + proceeds), well above the $80 floor.
