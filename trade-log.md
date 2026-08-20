@@ -1742,4 +1742,23 @@ None of today's Daily Movers candidates clear the bar: BULL, MARA, XXI, BTDR, an
 9:05 AM | HOLD | -- | -- | -- | -- | Daily Movers candidates (BULL, MARA, XXI, BTDR, SCSC) all faded from session high + volume <1.5x avg, failed confirmation | $0
 ```
 
+**Status check — 2026-08-20, 9:21 AM CDT**
+
+Account 782280879 (••••2879) active, cash $99.63, buying power $99.63, no unsettled funds, no open positions. SPY $766.05 (-0.39%), QQQ $712.59 (-0.49%) — both mildly red, neither down >2%. Window: 8:30-9:30 AM CDT high-conviction period, score 4+ required.
+
+**Scan (Daily Movers, filtered to NYSE/Nasdaq $5+, up 3-20%):** BULL (+6.6%), BTDR (+8.6%), MRVI (+9.5%), SCSC (+14.8%), SCTX (+6.7%). Checked 5-min intraday bars for session high vs current price — all five have already faded well off their session high:
+- BULL: high $9.95 → now $9.22 (7.4% off high)
+- BTDR: high $11.26 → now $10.46 (7.2% off high)
+- MRVI: high $8.18 → now $7.91 (3.3% off high)
+- SCSC: high $66.78 → now $59.02 (11.6% off high)
+- SCTX: high $35.00 → now $33.12 (5.4% off high)
+
+None clear the "within 3% of session high" momentum-confirmation gate — same pump-and-fade pattern as the 9:05 AM check (BULL, BTDR, SCSC repeat offenders). Skipping per rules rather than forcing a trade.
+
+**No trade this tick.**
+
+```
+9:21 AM | HOLD | -- | -- | -- | -- | Daily Movers (BULL, BTDR, MRVI, SCSC, SCTX) all faded >3% off session high, failed momentum confirmation | $0
+```
+
 Cash: $99.63, 0 open positions, SPY -0.40%/QQQ -0.63%. I'll check back to rescan for momentum candidates and manage any future positions — let me know if you'd like me to keep iterating now or wait for the next tick.
