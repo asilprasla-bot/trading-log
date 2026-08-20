@@ -2044,3 +2044,20 @@ Since both position slots are already occupied, no new buys are possible today r
 ```
 
 Next check should come before 2:55 PM CDT for the mandatory force-sell, and sooner if either position moves further against entry (TEM especially, closer to its -4% stop).
+
+**Status check — 2026-08-20, 2:00 PM CDT**
+
+Account 782280879 (••••2879) active, cash $83.63 (above $80 floor), total value $99.39, 2/2 positions open (TEM, MRVI). Now in the "no new buys, manage positions only" window (2:00-2:55 PM CDT) — moot anyway since both slots are filled.
+
+**Position management:**
+- **TEM**: avg cost $68.36 → now $66.465 (-2.77% vs entry). In the 2-4% band → stop triggers at position down 4%. No action yet, but watch closely.
+- **MRVI**: avg cost $8.27 → now $8.26 (-0.12% vs entry). Back within <2% band → stop only triggers at position down 5%. No action.
+
+Neither position at stop-loss or take-profit thresholds. Max positions (2/2) already held, so no scan/research/buy this tick.
+
+```
+2:00 PM | HOLD | TEM  | $66.47 | -2.77% vs entry | within 2-4% band, stop at -4% | pos held
+2:00 PM | HOLD | MRVI | $8.26  | -0.12% vs entry | within normal range, no stop/profit trigger | pos held
+2:00 PM | INFO | -    | -      | max 2 positions open, cash $83.63 | no new buys possible | -
+```
+**Status — 2:00 PM CDT:** TEM still drifting in the 2-4% stop-loss band (-2.77%, trigger at -4%), MRVI recovered to essentially flat (-0.12%). Neither hit stop-loss or take-profit. 2/2 slots filled, no new buys possible. Cash $83.63, above the $80 floor. Force-sell deadline at 2:55 PM CDT is under an hour away — next check should come soon, sooner if TEM approaches -4%.
