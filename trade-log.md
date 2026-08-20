@@ -1779,3 +1779,25 @@ Account 782280879 (••••2879) active, cash $99.63, buying power $99.63, n
 ```
 9:38 AM | HOLD | -- | -- | -- | -- | LB/AUPH/MRVI passed momentum but failed 1.5x volume confirmation; SCTX faded off high; SCSC has same-day earnings | $0
 ```
+No trade today. Here's the walkthrough:
+
+**Account:** $99.63 cash, 0 open positions, account 782280879 active. No positions to manage.
+
+**Market:** SPY -0.30%, QQQ -0.50% — both mildly red but under the 2% threshold, so normal trading rules apply (score 3+, current time ~9:55 AM CDT).
+
+**Scan (Daily Movers list, 20 names):**
+- 6 were OTC/ADR tickers (FKKFY, SKHHY, IGGHY, RGLXY, HEGIY, MPJPY) → excluded by NYSE/Nasdaq-only rule
+- COTY, AHG, ENHA, BTBT → under $5/share → excluded
+- MRNA, AAP, WOLF, AMRC, HOV, EYPT → moving down, not up → excluded
+- SCTX +24.3% → exceeds the 3–20% momentum band → excluded
+- **SCSC** +17.2%, price $60, mkt cap $1.2B → but reported earnings *this morning* (beat: $1.46 vs $1.13 est) → excluded by the "no earnings within 3 days" rule (that's exactly why it's moving)
+- **LB** +8.1%, **MRVI** +11.6% → both cleared momentum, volume (well over 1.5x pace), 5-day uptrend, and market cap → scored 4/5
+
+**Why no buy:** Both LB and MRVI made new 52-week highs *today*, meaning current price is within ~1-2% of the session high already. Running the required EV check (Step 7: upside ≥ 1.5× the 5% downside stop) — with next resistance being essentially "right here" (they're at highs, not below a ceiling), the realistic near-term upside is far smaller than the 5% stop-loss risk. Reward:risk comes out well under 1.5x for both. The rules make this a hard gate ("must pass before buying... if <1.5 → skip"), so I passed on both rather than chase extended stocks with poor risk/reward.
+
+**Log:**
+```
+9:55 AM CDT | HOLD | - | - | - | - | Daily Movers screened: 6 OTC/ADR + 4 sub-$5 + 6 down-movers excluded; SCTX >20% cap; SCSC has same-day earnings; LB/MRVI scored 4/5 but both at new highs with EV ratio <1.5x (limited upside vs 5% stop) | $0
+```
+
+I'll continue monitoring — if either pulls back to a better entry (more room to the upside target) or a fresh mover shows up with a cleaner setup, I'll revisit.
