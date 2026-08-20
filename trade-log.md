@@ -1972,3 +1972,19 @@ Neither position at stop-loss or take-profit thresholds. Max positions (2/2) alr
 12:41 PM | INFO | -    | -       | max 2 positions open, cash $83.63 | no new buys possible | -
 ```
 Status check complete for 12:41 PM CDT. Account 782280879: cash $83.63 (above $80 floor), 2/2 positions held. TEM has moved -2.17% against entry and just crossed into the tighter 2-4% stop-loss band (now fires at -4% position loss vs. the prior -5% threshold); MRVI is at -1.27%, still in the loose band. Neither hit stop-loss or take-profit. Market mildly red (SPY -0.6%, QQQ -0.76%), no halt condition. Max positions filled, so no new scanning was needed. Logged and committed (`7d7d37b`). Continuing to monitor toward the 2:55 PM CDT force-sell deadline.
+
+**Status check — 2026-08-20, 12:57 PM CDT**
+
+Account 782280879 (••••2879) active, cash $83.63 (above $80 floor), total value $99.35, 2/2 positions open (TEM, MRVI). No 6% daily loss trigger (down ~0.3% from day-start ~$99.63). Index quote tool permission denied this tick — no impact since 2/2 positions are already filled and no new buys are possible regardless of market direction.
+
+**Position management:**
+- **TEM**: avg cost $68.36 → now $67.165 (-1.75% against entry). Back within <2% band → stop only triggers at position down 5%. No action.
+- **MRVI**: avg cost $8.27 → now $8.1204 (-1.81% against entry). Within <2% band → stop only triggers at position down 5%. No action.
+
+Neither position at stop-loss or take-profit thresholds. Max positions (2/2) already held, so no new candidates scanned this tick.
+
+```
+12:57 PM | HOLD | TEM  | $67.165 | -1.75% vs entry | within normal range, no stop/profit trigger | pos held
+12:57 PM | HOLD | MRVI | $8.1204 | -1.81% vs entry | within normal range, no stop/profit trigger | pos held
+12:57 PM | INFO | -    | -       | max 2 positions open, cash $83.63 | no new buys possible | -
+```
