@@ -1801,3 +1801,23 @@ No trade today. Here's the walkthrough:
 ```
 
 I'll continue monitoring — if either pulls back to a better entry (more room to the upside target) or a fresh mover shows up with a cleaner setup, I'll revisit.
+
+**Status check — 2026-08-20, 10:15 AM CDT**
+
+Account 782280879 (••••2879) active, cash $99.63, buying power $99.63, no open positions. SPY $766.35 (-0.35%), QQQ $711.97 (-0.57%) — both mildly red, neither down >2%. Normal trading window, score 3+ required.
+
+**Scan (Daily Movers + spot-checked 100 Most Popular for additional gainers):**
+- **TEM** +10.6% ($67.77), 0.75% off session high, volume 1.9x avg, mkt cap $12.2B, 5-day trend strongly positive, no earnings within 3 days → scored 4/5 (only SPY/QQQ-green point missed). But already up ~38% over the last two sessions (breakout on 8/19), and with no resistance above and the flat 5%-stop/7%-cap EV formula, reward:risk = 4.74/3.39 = **1.40x — fails the 1.5x EV gate**. Chasing an extended 2-day breakout here is exactly the risk that gate is meant to screen out.
+- **MARA** +10.8%, near high (1.9% off) → volume only 0.70x avg → fails volume confirmation.
+- **MRVI** +12.7%, near high (0.5% off, new 52-wk high) → volume 1.40x avg → fails 1.5x volume confirmation (closest miss).
+- **SCSC** +17.4% on the tape but faded 9.6% off its session high ($66.78→$60.38) → fails momentum confirmation (fading, not still moving up).
+- **CUVL** +10.2%, at session high → volume only 1.25x avg, and very thin (3.9k shares) → fails volume confirmation.
+- **COIN** +8.2% ($173.38), 0.5% off session high → volume only 1.1x avg → fails volume confirmation.
+- Rest of Daily Movers / popular-name spot check: down movers, sub-$5, or OTC/ADR tickers excluded.
+
+**No trade this tick.** Nothing clears both the 1.5x volume bar and the 1.5x EV bar today — TEM is the closest on quality but fails EV precisely because it's already extended.
+
+**Log:**
+```
+10:15 AM CDT | HOLD | - | - | - | - | TEM scored 4/5 (mom+vol+trend+capOK) but EV ratio 1.40x <1.5x on an already-extended 2-day breakout; MARA/MRVI/CUVL/COIN failed 1.5x volume confirmation; SCSC faded off high | $0
+```
