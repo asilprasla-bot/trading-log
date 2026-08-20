@@ -1703,3 +1703,17 @@ Account 782280879 (••••2879) active, cash $99.63, buying power $99.63, n
 TIME    | ACTION | TICKER | PRICE | SCORE | EV RATIO | REASON                                              | AMOUNT
 8:16 AM | HOLD   | —      | —     | N/A   | N/A      | Pre-market window (8:00-8:30 CDT), observe only, no positions to manage | —
 ```
+**Trading Log — 2026-08-20**
+
+| Time | Action | Ticker | Price | Score | EV Ratio | Reason | Amount |
+|---|---|---|---|---|---|---|---|
+| 8:32 AM CDT | HOLD | — | — | — | — | No buys made — see below | $0 |
+
+**Summary:**
+- **Account 782280879**: $99.63 cash, no open positions, no PnL to manage.
+- **Market**: SPY -0.32%, QQQ -0.30% — mildly red but within normal-trading range (not >2% down).
+- **Window**: Market opened ~2 minutes ago (8:30 AM CDT) — this is the 8:30–9:30 AM high-conviction window requiring score 4+.
+- **Candidates found** (from Daily Movers): TEM (+4.2%), MRVI (+7.1%), SOC (+10.7%) — all cleared momentum (up 3-20%, within 3% of session high) and had positive 5-day trends, market cap >$500M, and no earnings risk in the next 3 days.
+- **Blocked on volume confirmation**: all three failed the required 1.5x 20-day-average volume test (TEM 0.27x, MRVI 0.30x, SOC 0.04x of average). This is expected — trading has only been open ~2 minutes, so today's volume is naturally a small fraction of the full-day average right now. Buying into a move with this little volume data would risk chasing a fake breakout.
+
+**No trade taken this tick.** I'll rescan on the next check-in once real volume has accumulated (typically meaningful by 9:00–9:15 AM CDT) to see if TEM, MRVI, or SOC — or new names — confirm on volume.
