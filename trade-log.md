@@ -1988,3 +1988,4 @@ Neither position at stop-loss or take-profit thresholds. Max positions (2/2) alr
 12:57 PM | HOLD | MRVI | $8.1204 | -1.81% vs entry | within normal range, no stop/profit trigger | pos held
 12:57 PM | INFO | -    | -       | max 2 positions open, cash $83.63 | no new buys possible | -
 ```
+**Status — 12:57 PM CDT:** Both positions holding steady, no triggers hit. TEM -1.75%, MRVI -1.81% vs entry, both within the loose stop-loss band (fires at -5%). 2/2 position slots filled so no new buys possible regardless of scan results. Cash $83.63, well above the $80 floor. Logged and committed (`d2b35a5`). Continuing to monitor toward the 2:55 PM CDT force-sell deadline.
