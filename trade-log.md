@@ -1955,3 +1955,19 @@ Neither position near stop-loss or take-profit thresholds. Max positions (2/2) a
 ```
 
 Both positions holding within normal range — TEM -1.90%, MRVI -1.15% — no stop-loss or take-profit triggers hit. 2/2 max positions filled, so no new scanning needed. Will continue monitoring toward the 2:55 PM CDT force-sell deadline.
+
+**Status check — 2026-08-20, 12:41 PM CDT**
+
+Account 782280879 (••••2879) active, cash $83.63 (above $80 floor), total value $99.36, 2/2 positions open (TEM, MRVI). SPY $764.45 (-0.60%), QQQ $710.635 (-0.76%) — both mildly red, neither down >2%.
+
+**Position management:**
+- **TEM**: avg cost $68.36 → now $66.88 (-2.17% against entry). Just crossed into the 2-4% band → stop now triggers at position down 4% (was previously in the <2% band). No action yet.
+- **MRVI**: avg cost $8.27 → now $8.165 (-1.27% against entry). Within <2% band → stop only triggers at position down 5%. No action.
+
+Neither position at stop-loss or take-profit thresholds. Max positions (2/2) already held, so no new candidates scanned this tick.
+
+```
+12:41 PM | HOLD | TEM  | $66.88  | -2.17% vs entry | crossed into 2-4% band, stop at -4% now | pos held
+12:41 PM | HOLD | MRVI | $8.165  | -1.27% vs entry | within normal range, no stop/profit trigger | pos held
+12:41 PM | INFO | -    | -       | max 2 positions open, cash $83.63 | no new buys possible | -
+```
