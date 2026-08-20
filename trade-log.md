@@ -1821,3 +1821,21 @@ Account 782280879 (••••2879) active, cash $99.63, buying power $99.63, n
 ```
 10:15 AM CDT | HOLD | - | - | - | - | TEM scored 4/5 (mom+vol+trend+capOK) but EV ratio 1.40x <1.5x on an already-extended 2-day breakout; MARA/MRVI/CUVL/COIN failed 1.5x volume confirmation; SCSC faded off high | $0
 ```
+
+**Status check — 2026-08-20, 10:31 AM CDT**
+
+Account 782280879 (••••2879) active, cash $99.63, buying power $99.63, no unsettled funds, no open positions. SPY $766.64 (-0.31%), QQQ $711.70 (-0.61%) — both mildly red, neither down >2%. Normal trading window, score 3+ required.
+
+**Scan (Daily Movers, filtered to NYSE/Nasdaq $5+, up 3-20%):** TEM +11.3% ($68.15), MARA +11.1% ($10.73), MRVI +12.1% ($8.10), SCSC +16.4% ($59.85). Rest excluded: OTC/ADR (FKKFY, PTBRY, SKHHY, JMPLD), sub-$5 (AHG, HIVE, BTBT), down movers (MRNA, AAP, WOLF, AMRC, EIKN, HOV, EYPT, CAPR), >20% band (SCTX +26.9%).
+
+- **TEM**: 0.6% off session high, volume 2.11x avg, mkt cap $12.3B, 5-day trend up, no earnings in window → scored 4/5. EV check: at/near high with no resistance below +7%, so upside caps at 7%, downside 5% stop → ratio 1.40x, **fails 1.5x gate**.
+- **MRVI**: 1.0% off session high (new 52-wk high today), volume 2.18x avg, mkt cap $2.1B, 5-day trend up, no earnings in window → scored 4/5. Same EV cap issue: ratio 1.40x, **fails 1.5x gate**.
+- **MARA**: near high (1.6% off) but volume only 0.74x avg → fails volume confirmation.
+- **SCSC**: faded 10.4% off session high ($66.78→$59.85) → fails momentum confirmation; also reported earnings this morning (beat) → same-day earnings risk.
+
+**No trade this tick.** Same structural pattern as prior ticks today — quality names are extended off recent breakouts with no resistance headroom below the 7% cap, so EV ratio caps at 1.40x regardless of score.
+
+**Log:**
+```
+10:31 AM CDT | HOLD | -- | -- | -- | -- | TEM/MRVI scored 4/5 but EV ratio 1.40x <1.5x (extended, no resistance below +7% cap); MARA failed volume (0.74x); SCSC faded off high + same-day earnings | $0
+```
