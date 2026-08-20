@@ -1971,3 +1971,4 @@ Neither position at stop-loss or take-profit thresholds. Max positions (2/2) alr
 12:41 PM | HOLD | MRVI | $8.165  | -1.27% vs entry | within normal range, no stop/profit trigger | pos held
 12:41 PM | INFO | -    | -       | max 2 positions open, cash $83.63 | no new buys possible | -
 ```
+Status check complete for 12:41 PM CDT. Account 782280879: cash $83.63 (above $80 floor), 2/2 positions held. TEM has moved -2.17% against entry and just crossed into the tighter 2-4% stop-loss band (now fires at -4% position loss vs. the prior -5% threshold); MRVI is at -1.27%, still in the loose band. Neither hit stop-loss or take-profit. Market mildly red (SPY -0.6%, QQQ -0.76%), no halt condition. Max positions filled, so no new scanning was needed. Logged and committed (`7d7d37b`). Continuing to monitor toward the 2:55 PM CDT force-sell deadline.
