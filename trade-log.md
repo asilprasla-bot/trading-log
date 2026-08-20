@@ -1989,3 +1989,20 @@ Neither position at stop-loss or take-profit thresholds. Max positions (2/2) alr
 12:57 PM | INFO | -    | -       | max 2 positions open, cash $83.63 | no new buys possible | -
 ```
 **Status — 12:57 PM CDT:** Both positions holding steady, no triggers hit. TEM -1.75%, MRVI -1.81% vs entry, both within the loose stop-loss band (fires at -5%). 2/2 position slots filled so no new buys possible regardless of scan results. Cash $83.63, well above the $80 floor. Logged and committed (`d2b35a5`). Continuing to monitor toward the 2:55 PM CDT force-sell deadline.
+
+**Status check — 2026-08-20, 1:13 PM CDT**
+
+Account 782280879 (••••2879) active, cash $83.63 (above $80 floor), total value $99.24, 2/2 positions open (TEM, MRVI). No 6% daily loss trigger (down ~0.39% from day-start $99.63). SPY -0.71%, QQQ -0.97% — both mildly red, neither down >2%, no impact since 2/2 positions already filled.
+
+**Position management:**
+- **TEM**: avg cost $68.36 → now $66.5975 (-2.58% against entry). Within 2-4% band → stop triggers at position down 4%. No action yet.
+- **MRVI**: avg cost $8.27 → now $8.08 (-2.30% against entry). Within 2-4% band → stop triggers at position down 4%. No action yet.
+
+Neither position at stop-loss or take-profit thresholds. Max positions (2/2) already held, so no new candidates scanned this tick.
+
+```
+1:13 PM | HOLD | TEM  | $66.5975 | -2.58% vs entry | within 2-4% band, stop at -4% | pos held
+1:13 PM | HOLD | MRVI | $8.08    | -2.30% vs entry | within 2-4% band, stop at -4% | pos held
+1:13 PM | INFO | -    | -        | max 2 positions open, cash $83.63 | no new buys possible | -
+```
+**Status — 1:13 PM CDT:** Both positions drifted further into the 2-4% stop-loss band (TEM -2.58%, MRVI -2.30%) but neither hit the -4% position-loss trigger yet. 2/2 slots filled, no new buys possible regardless of scan results. Cash $83.63, above the $80 floor. Continuing to monitor toward the 2:55 PM CDT force-sell deadline.
