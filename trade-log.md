@@ -1762,3 +1762,20 @@ None clear the "within 3% of session high" momentum-confirmation gate — same p
 ```
 
 Cash: $99.63, 0 open positions, SPY -0.40%/QQQ -0.63%. I'll check back to rescan for momentum candidates and manage any future positions — let me know if you'd like me to keep iterating now or wait for the next tick.
+
+**Status check — 2026-08-20, 9:38 AM CDT**
+
+Account 782280879 (••••2879) active, cash $99.63, buying power $99.63, no unsettled funds, no open positions. SPY $766.69 (-0.31%), QQQ $712.82 (-0.46%) — both mildly red, neither down >2%. Window: 9:30 AM-2:00 PM CDT normal trading, score 3+ required.
+
+**Scan (Daily Movers, filtered to NYSE/Nasdaq $5+, up 3-20%):** LB (+10.3%), AUPH (+6.8%), MRVI (+10.0%), SCSC (+16.7%), SCTX (+14.5%).
+- **SCSC**: reported Q4 earnings this morning (beat: $1.46 vs $1.13 est) — that's the source of today's pop. Earnings-day risk, skip per rule (no earnings within 3 days).
+- **SCTX**: high $37.00 → now $35.56, 3.9% off session high — fails momentum confirmation (fading, not still moving up).
+- **LB**: near session high (high $90.70, now $90.69, 0.02% off) — momentum confirmed, but volume only 0.66x 30-day average — fails 1.5x volume confirmation.
+- **AUPH**: near session high (2.9% off) — momentum confirmed, but volume only 0.72x average — fails volume confirmation.
+- **MRVI**: near session high (2.9% off) — momentum confirmed, but volume only 1.29x average — closest, still fails 1.5x threshold.
+
+**No trade this tick.** LB, AUPH, MRVI are worth rechecking next tick as volume continues accumulating through the morning; MRVI is closest to clearing.
+
+```
+9:38 AM | HOLD | -- | -- | -- | -- | LB/AUPH/MRVI passed momentum but failed 1.5x volume confirmation; SCTX faded off high; SCSC has same-day earnings | $0
+```
