@@ -2007,3 +2007,20 @@ Neither position at stop-loss or take-profit thresholds. Max positions (2/2) alr
 ```
 **Status — 1:13 PM CDT:** Both positions drifted further into the 2-4% stop-loss band (TEM -2.58%, MRVI -2.30%) but neither hit the -4% position-loss trigger yet. 2/2 slots filled, no new buys possible regardless of scan results. Cash $83.63, above the $80 floor. Continuing to monitor toward the 2:55 PM CDT force-sell deadline.
 **1:13 PM CDT status:** Both positions (TEM -2.58%, MRVI -2.30%) drifted deeper into the 2-4% stop-loss band but haven't hit the -4% trigger. Account is at 2/2 max positions with $83.63 cash (above floor), so no new buys are possible regardless of market scan. SPY/QQQ both mildly red (-0.7% to -1%), no 6% daily loss trigger. Logged and committed (`20dd55a`); continuing to monitor toward the 2:55 PM CDT force-sell deadline.
+
+**Status check — 2026-08-20, 1:28 PM CDT**
+
+Account 782280879 (••••2879) active, cash $83.63 (above $80 floor), total value $99.34, 2/2 positions open (TEM, MRVI). Index quote tool permission denied this tick — no impact since 2/2 positions already filled and no new buys are possible regardless of market direction.
+
+**Position management:**
+- **TEM**: avg cost $68.36 → now $66.41 (-2.85% against entry). Within 2-4% band → stop triggers at position down 4%. No action yet.
+- **MRVI**: avg cost $8.27 → now $8.205 (-0.79% against entry). Back within <2% band → stop only triggers at position down 5%. No action.
+
+Neither position at stop-loss or take-profit thresholds. Max positions (2/2) already held, so no new candidates scanned this tick.
+
+```
+1:28 PM | HOLD | TEM  | $66.41 | -2.85% vs entry | within 2-4% band, stop at -4% | pos held
+1:28 PM | HOLD | MRVI | $8.205 | -0.79% vs entry | within normal range, no stop/profit trigger | pos held
+1:28 PM | INFO | -    | -      | max 2 positions open, cash $83.63 | no new buys possible | -
+```
+**Status — 1:28 PM CDT:** TEM continues to drift in the 2-4% stop-loss band (-2.85%, trigger at -4%); MRVI recovered slightly to -0.79%, back in the loose band. Neither hit stop-loss or take-profit. 2/2 slots filled, no new buys possible. Cash $83.63, above the $80 floor. Continuing to monitor toward the 2:55 PM CDT force-sell deadline.
