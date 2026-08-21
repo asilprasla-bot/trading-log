@@ -2598,3 +2598,21 @@ Will continue monitoring toward the 2:55 PM CDT force-sell.
 - HOOD -1.92% vs entry, COIN -1.83% vs entry — both still within the <2% stop-loss band (fires at -5% position loss), no triggers hit.
 - Day P/L: -0.36% vs day start, well within the 6% daily stop.
 - Force-sell deadline (2:55 PM CDT) is ~45 minutes out — will keep monitoring for stop-loss/take-profit triggers.
+
+**Status check (2:25 PM CDT, 2026-08-21):**
+
+Account 782280879: cash $80.41 (at floor), total value $99.02 (-0.39% vs day start ~$99.41, well within 6% stop). 2/2 positions open — no new buys possible regardless of scan (also within the 2:00-2:55 PM no-new-buys window). Market green: SPY +0.45%, QQQ +0.36%.
+
+**Positions:**
+- HOOD: entry $109.00 → now $107.21 (-1.64% vs entry). <2% band → stop at -5% position loss. Not triggered. HOLD.
+- COIN: entry $189.45 → now $184.94 (-2.38% vs entry). Moved into 2-4% band → stop at -4% position loss. Not triggered (down 2.38%). HOLD, watch closely.
+
+Neither at take-profit (both down). Not yet 2:55 PM CDT force-sell time (~30 min out).
+
+```
+2:25 PM CDT | HOLD | HOOD | $107.21 | - | - | down 1.64% vs entry, within 5% stop tolerance | -
+2:25 PM CDT | HOLD | COIN | $184.94 | - | - | down 2.38% vs entry, within 4% stop tolerance (2-4% band) | -
+2:25 PM CDT | NO-BUY | - | - | - | - | max 2 positions filled, cash at $80 floor, in no-new-buy window | -
+```
+
+Will continue monitoring toward the 2:55 PM CDT force-sell.
