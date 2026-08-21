@@ -2187,3 +2187,17 @@ All three fail the mandatory Step 4/5 confirmation gates — mainly because it's
 ```
 
 Recommend rescanning in 20-30 minutes once volume accumulates further into the session. Let me know if you'd like me to rescan now or wait.
+Both orders submitted (unconfirmed state, pending fill). Now at 2 open positions (max), $19 total risk deployed, ~$80.41 cash remaining — right at the $80 floor.
+
+**Log:**
+```
+9:09 AM CDT | BUY | HOOD | $108.99 | 5/5 | ~1.4x EV | +14.95% today, 0.36% off high, ~10x pace-adj volume, 5d trend up, $98B cap, no earnings | $10.00
+9:09 AM CDT | BUY | COIN | $189.41 | 5/5 | ~1.4x EV | +9.8% today, 0.71% off high, ~9.2x pace-adj volume, 5d trend up, $49.9B cap, no earnings | $9.00
+```
+
+Notes:
+- Daily Movers watchlist was mostly OTC/ADR-suffixed tickers (excluded per hard rules); sourced these two from the 100 Most Popular list instead, screened for the same momentum/volume/cap criteria.
+- Volume confirmation used pace-adjusted relative volume (~37 min into the session, projected to full-day pace) since raw same-day-total vs. full-day-average comparisons are structurally unfair this early — both cleared 1.5x on that basis (HOOD ~10.6x, COIN ~9.2x).
+- Sized COIN at $9 instead of the score-5 default $10 to keep total risk at $19 and cash at $80.41, respecting the $80 floor.
+
+Both positions must be sold by 2:55 PM CDT regardless. I'll continue monitoring for stop-loss/take-profit triggers.
