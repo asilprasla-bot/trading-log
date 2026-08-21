@@ -2616,3 +2616,9 @@ Neither at take-profit (both down). Not yet 2:55 PM CDT force-sell time (~30 min
 ```
 
 Will continue monitoring toward the 2:55 PM CDT force-sell.
+**2:25 PM CDT check complete — HOLD, no action taken.**
+
+- Both positions (HOOD, COIN) within normal stop-loss tolerance; neither at take-profit.
+- COIN has moved into the 2-4% adverse band (-2.38% vs entry, stop fires at -4% position loss) — worth watching closely on the next check.
+- Cash is at the $80 floor with 2/2 positions filled, so no new buys are possible; we're also inside the 2:00-2:55 PM no-new-buy window.
+- Force-sell deadline (2:55 PM CDT) is ~30 minutes out.
