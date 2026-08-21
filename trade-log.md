@@ -2165,3 +2165,25 @@ No candidate cleared all gates. No trade this cycle.
 
 **8:32 AM CDT tick complete.** Account flat, $99.41 cash, no positions. MARA was the only Daily Movers candidate to clear momentum (+6.41%, near session high) and the $5 price floor, but volume confirmation failed badly (0.16x avg vs required 1.5x) since the session just opened ~2 minutes ago. No trade — logged HOLD and will rescan shortly once volume builds.
 **8:32 AM CDT tick complete.** Account 782280879 is flat — $99.41 cash, no open positions. SPY +0.36%, QQQ +0.35%, both green. Only candidate to clear momentum + price from Daily Movers was MARA (+6.41%, near session high, $4.56B mcap, no earnings risk), but it failed volume confirmation badly (0.16x avg vs required 1.5x) since the session just opened ~2 minutes ago. Logged a HOLD and committed. Will rescan once volume builds and re-check the position/timing rules on the next tick.
+**No trade this cycle — logging HOLD.**
+
+**Portfolio:** Account 782280879 active, cash $99.41 (above $80 min floor), no open positions.
+
+**Market:** SPY +0.30%, QQQ +0.09% — both green, normal conditions. It's ~8:48 AM CDT (market just opened), which requires score 4+ for any buy.
+
+**Candidates screened** (from Daily Movers, filtered for NYSE/Nasdaq $5+, excluding OTC/ADR "Y"-suffix tickers):
+
+| Ticker | Change | Price vs. High | Vol vs. 30d avg | Verdict |
+|---|---|---|---|---|
+| ABUS | +10.0% | 3.7% off high (fails <3% test) | 1.45x (just under 1.5x) | Fails momentum gate |
+| SCTX | +8.0% | 3.9% off high (fails <3% test) | 0.13x | Fails momentum + volume gate |
+| BMM | +7.1% | 2.0% off high (passes) | 0.11x | Fails volume gate |
+
+All three fail the mandatory Step 4/5 confirmation gates — mainly because it's only ~18 minutes into the trading session, so today's volume hasn't built up to a meaningful multiple of the daily average yet. Per protocol, a failed gate means skip, not a lower score — I'm not forcing a trade into a fake/thin move.
+
+**Log:**
+```
+8:48 AM CDT | HOLD | — | — | — | — | No candidate passed momentum+volume gates (too early in session, vol <1.5x avg) | $0.00
+```
+
+Recommend rescanning in 20-30 minutes once volume accumulates further into the session. Let me know if you'd like me to rescan now or wait.
