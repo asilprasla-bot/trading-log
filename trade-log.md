@@ -2201,3 +2201,20 @@ Notes:
 - Sized COIN at $9 instead of the score-5 default $10 to keep total risk at $19 and cash at $80.41, respecting the $80 floor.
 
 Both positions must be sold by 2:55 PM CDT regardless. I'll continue monitoring for stop-loss/take-profit triggers.
+
+**Status check — 2026-08-21, 9:25 AM CDT**
+
+Account 782280879 active, cash $80.41 (at $80 floor — no room for new buys anyway), total value $98.99 (-0.4% vs day start $99.41, well within 6% stop threshold), 2/2 positions filled (max). In the 8:30-9:30 AM CDT window.
+
+**Step 3 — Manage positions:**
+- HOOD: entry $109.00, now $105.75 → -2.98% (2-4% band, stop fires at -4% position loss; not yet hit) → HOLD
+- COIN: entry $189.45, now $186.33 → -1.65% (<2% band, stop fires at -5% position loss; not yet hit) → HOLD
+
+No take-profit triggers (both positions down, not up). No stop-loss triggers. At max 2 positions and cash at floor, no new buys regardless of score.
+
+```
+9:25 AM | HOLD | HOOD | $105.75 | -2.98% vs entry | in 2-4% band, stop at -4%, not hit | held
+9:25 AM | HOLD | COIN | $186.33 | -1.65% vs entry | in <2% band, stop at -5%, not hit | held
+```
+
+**9:25 AM CDT tick complete.** Both open positions within normal stop-loss tolerance, no triggers. 2/2 slots filled, cash at $80 floor. Continue monitoring toward 2:55 PM CDT force-sell deadline.
