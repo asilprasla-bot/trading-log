@@ -2145,3 +2145,22 @@ No open positions to manage. No scan/research/buy performed — outside the trad
 ```
 
 **8:16 AM CDT tick complete.** Account flat, $99.41 cash, no positions. Market still green pre-open. Waiting for 8:30 AM CDT window to begin scanning for candidates.
+
+**Status check — 2026-08-21, 8:32 AM CDT**
+
+Account 782280879 (••••2879) active, cash $99.41 (above $80 floor), buying power $99.41 (all settled, no unsettled funds), total value $99.41, 0 open positions. Now in the 8:30-9:30 AM CDT "market just opened, high conviction only" window — score 4+ required.
+
+**Step 2 — Market direction:** SPY $765.38 (+0.36% vs prior close $762.60), QQQ $713.39 (+0.35% vs prior close $710.93) — both green, normal conditions.
+
+**Step 4 — Scan (Daily Movers):** Filtered out OTC/ADR-flagged tickers (BCMXY, JMPLD, MTTRY, BCHEY, KRNGY). Checked momentum (3-20% up, price ≥$5) on remaining 15: MRNA +2.75%, MARA +6.41%, AAP ~0%, SFBS +1.6%, MRVI +1.68%, EMAT +7.06% (price $3.57, fails $5 floor), AMRC +0.68%, TRON +14.4% (price $2.14, fails $5 floor), LYTS +2.81% (just under 3%), BTBT +5.64% (price $1.69, fails $5 floor), SPRY -0.09%, ONT +1.30%, EYPT -2.63%, CAPR -10.46%, AIAI +5.74% (price $4.79, fails $5 floor). Only **MARA** cleared momentum + price filter.
+
+**MARA research:** $11.865, session high $11.958 (0.78% off high, not fading) ✓. Mkt cap $4.56B ✓. No earnings in next 4 days ✓. 5-day trend positive ($9.22→$11.87) ✓. But volume confirmation FAILS: today's volume 7.52M vs 30-day avg 47.95M = 0.16x (needs ≥1.5x) — only ~2 minutes into the session, volume hasn't built up yet. Per rules, low-volume moves this early are skipped regardless of other factors.
+
+No candidate cleared all gates. No trade this cycle.
+
+```
+8:32 AM | HOLD | -    | -      | pre-market screen, no buys | SPY +0.36%, QQQ +0.35% both green | -
+8:32 AM | SCAN | MARA | $11.87 | fail  | -   | momentum+price OK but vol 0.16x avg (need 1.5x), only 2min into session | SKIP
+```
+
+**8:32 AM CDT tick complete.** Account flat, $99.41 cash, no positions. MARA was the only Daily Movers candidate to clear momentum (+6.41%, near session high) and the $5 price floor, but volume confirmation failed badly (0.16x avg vs required 1.5x) since the session just opened ~2 minutes ago. No trade — logged HOLD and will rescan shortly once volume builds.
