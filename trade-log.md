@@ -2829,3 +2829,28 @@ No candidate cleared all gates, so no new buy this cycle — forcing a sub-1.5x 
 ```
 
 I'll keep monitoring FWDI's stop and rescan for fresh momentum candidates as the session progresses.
+
+**Trading cycle — 11:09 AM CDT, 2026-08-24**
+
+**Account 782280879:** Cash $94.17 (above $80 floor), buying power $94.17. 1 of 2 position slots used. SPY -0.16%, QQQ -0.79% — both under 2% down, normal trading conditions (score 3+ required).
+
+**Open position — FWDI:** $5.94 avg cost → $5.86 current, -1.35%. Within <2%-adverse band → hold, no stop triggered. Not up 4%+, no take-profit trigger.
+
+**Scan results (Daily Movers watchlist, ADRs/OTC filtered):**
+| Ticker | Move | Verdict |
+|---|---|---|
+| BRCC | +16.5%, near high, vol 2.98x avg, mkt cap $2.57B, no earnings <3d — scores 4/5 | Fails EV check: even with a tight stop below the recent intraday swing low (~2.1% risk) vs. nearest resistance/today's high (~3.1% reward), ratio ≈1.4-1.5x, doesn't clear 1.5x bar — skip |
+| ALVO | +17.5%, near high, vol 1.81x avg, mkt cap $2.03B, no earnings <3d — scores 4/5 | Fails EV check: resistance (today's high) only ~1.8% away vs. a ~2% realistic stop — ratio <1x — skip |
+| NNNN | +11.7% vs prior close but faded 15.2% off session high — fails near-high momentum test — skip |
+| CAPR | +13.2% vs prior close but faded 11.2% off session high (opened 8.01, now 7.12) — fails near-high momentum test — skip |
+| SUJA | +15.3%, near high, but volume only 0.62x 30-day avg — fails 1.5x volume gate — skip |
+
+No candidate cleared both the momentum/volume screen and the Step 7 EV gate. No new buy this cycle.
+
+```
+11:09 AM | HOLD | FWDI | $5.86 | - | - | down 1.35%, within normal stop band | -
+11:09 AM | SKIP | BRCC | $10.25 | 4/5 | ~1.4x | EV ratio below 1.5x min | -
+11:09 AM | SKIP | ALVO | $5.21 | 4/5 | <1x | resistance too close, poor reward:risk | -
+```
+
+Holding cash, will rescan next tick.
