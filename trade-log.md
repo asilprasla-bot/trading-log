@@ -2806,3 +2806,26 @@ Notes:
 - Remaining cash after this buy: ~$94.17, comfortably above the $80 floor. 1 of 2 position slots used.
 
 I'll continue monitoring FWDI against the progressive stop-loss/take-profit rules and rescan for a second candidate.
+**Trading cycle summary — 10:54 AM CDT, 2026-08-24**
+
+**Account 782280879:** Cash $94.17 (above $80 floor), 1 of 2 position slots used. SPY -0.16%, QQQ -0.71% — both under 2%, normal trading conditions apply (score 3+ required).
+
+**Open position — FWDI:** down 1.8% from entry ($5.94→$5.83). Within the <2%-adverse band → hold, no stop triggered.
+
+**Scan results (Daily Movers watchlist):**
+| Ticker | Move | Verdict |
+|---|---|---|
+| BRCC | +16.4% | Fading 3.1% off session high — skip |
+| CAPR | +12.3% | Fading 6.3% off session high — skip |
+| SUJA | +15.6% | Volume only 0.53x avg (needs 1.5x) — fake move, skip |
+| ALVO | +16.7% | Passed momentum/volume/trend/earnings/market-cap (**scored 4/5**) — but failed EV check: only 2.7% room to nearest resistance ($5.30) vs. 5% stop-loss risk = 0.5x reward:risk, below the required 1.5x minimum |
+
+No candidate cleared all gates, so no new buy this cycle — forcing a sub-1.5x reward:risk trade isn't worth the risk even with a slot open.
+
+**Log:**
+```
+10:54 AM | HOLD | FWDI | $5.83 | - | - | down 1.8%, within normal stop band | -
+10:54 AM | SKIP | ALVO | $5.16 | 4/5 | 0.5x | EV ratio below 1.5x min, resistance too close | -
+```
+
+I'll keep monitoring FWDI's stop and rescan for fresh momentum candidates as the session progresses.
