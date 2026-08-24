@@ -2676,3 +2676,21 @@ Per Step 4, momentum confirmation is a hard gate — skip if it doesn't pass. Fo
 ```
 
 Cash: $99.17, 0 open positions. I'll rescan shortly as the session develops — momentum plays often emerge 30-60 min after open. Want me to re-run the scan now, or wait a bit and check back?
+
+**Status check (8:48 AM CDT, 2026-08-24):**
+
+Account 782280879: cash $99.17, no open positions, day flat vs start. SPY -0.32%, QQQ -1.27% (both red, neither past -2%; normal-mode threshold would be score 3+, but we're inside the 8:30-9:30 AM CDT high-conviction window which requires score 4+).
+
+Full scan (Daily Movers + 100 Most Popular, ~110 tickers) found 3 that cleared the +3-20%/$5-floor screen: NSSC (+9.4%), FWDI (+7.2%), CAPR (+3.0%). Deeper look:
+
+- **NSSC**: Reported earnings THIS MORNING (beat: $0.41 vs $0.39 est) — disqualified by the "no earnings within 3 days" rule (0 days). Also already faded hard off the pop: high $51.77 → now $41.67, 19.5% off high. Fails near-high momentum confirmation too. SKIP.
+- **CAPR**: Opened near $8, spiked to $8.02 high, then crashed to $6.34 low; now $6.48, 19.2% off high. Fails near-high momentum confirmation (must be within 3%) — this is a fade, not a breakout. SKIP.
+- **FWDI**: Near session high (high $5.64, now $5.51, 2.3% off — passes), volume paced well above average intraday, 5-day trend positive ($4.25→$5.14 over the week). Scored:
+  - Momentum confirmed (+1), 5-day trend positive (+1), market cap $408M — below the $500M bar (0), no earnings in next 4 days (+1), SPY/QQQ both red (0) = **3/5**.
+  - 3/5 clears normal-mode bar but falls short of the 4+ required in the current 8:30-9:30 AM high-conviction window. NO BUY.
+
+```
+8:48 AM | HOLD | -- | -- | -- | -- | FWDI scored 3/5 (best candidate) but window requires 4+ until 9:30 AM CDT; NSSC disqualified (earnings today + faded from high), CAPR disqualified (faded 19% off high) | $0
+```
+
+Will re-scan after 9:30 AM CDT when the bar drops to 3+ (FWDI would qualify if momentum holds), or sooner if a 4+ setup appears.
