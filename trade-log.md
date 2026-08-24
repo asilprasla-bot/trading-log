@@ -2854,3 +2854,6 @@ No candidate cleared both the momentum/volume screen and the Step 7 EV gate. No 
 ```
 
 Holding cash, will rescan next tick.
+**No trade this cycle — holding.** Cash $94.17 (above $80 floor), 1 of 2 slots used by FWDI (-1.35%, within normal stop band, no action needed).
+
+Scanned Daily Movers: BRCC and ALVO both scored 4/5 on momentum/volume/trend, but neither cleared the 1.5x reward:risk EV gate (BRCC ≈1.4x, ALVO <1x since resistance was too close). NNNN and CAPR were fading off session highs, and SUJA failed the volume confirmation gate (0.62x avg). Logged and committed to trade-log.md.
