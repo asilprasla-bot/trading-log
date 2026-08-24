@@ -2743,3 +2743,21 @@ Summary:
 - Everything else either failed the volume gate (WBTN, SUJA), faded off its high (NNNN), or was under the $5 price floor (AMC +5.1% but at $2.68)
 
 Logged and committed to trade-log.md. Will rescan on the next tick.
+
+**Status check (10:00 AM CDT, 2026-08-24):**
+
+Account 782280879: cash $99.17, no open positions. SPY -0.29%, QQQ -1.09% (both red, neither past -2%; normal 9:30 AM-2:00 PM CDT window, score 3+ required).
+
+Daily Movers scan (OTC/ADR filtered): NSSC (+13.7%), NNNN (+12.2%), FWDI (+13.9%), SUJA (+12.9%) passed initial momentum range.
+- NSSC: disqualified — earnings reported this morning (beat: $0.41 actual vs $0.39 est), and already faded 16.4% off today's high ($51.77→$43.29).
+- NNNN: faded 14.8% off session high ($8.97→$7.64) — fails near-high test.
+- FWDI: momentum confirmed (1.4% off high, vol 2.12x avg), no earnings, 5d trend up → scores 3/5 (capped by $432M mkt cap <$500M and red SPY/QQQ). Failed EV check: price already above entire 5-day high range, so upside capped at +7% ($6.265) vs 5% stop ($5.5625) = 1.4x reward:risk, below 1.5x minimum required.
+- SUJA: near high (0.8% off) but volume only 0.39x 30-day avg — fails 1.5x gate.
+
+100 Most Popular (98 tickers scanned): none cleared +3% momentum threshold today — broad market weakness.
+
+```
+10:00 AM | HOLD | -- | -- | -- | -- | FWDI only candidate to clear score 3/5 but failed EV check (1.4x < 1.5x); NSSC earnings+faded, NNNN faded, SUJA failed volume gate | $0
+```
+
+No trade this cycle. Will rescan next tick.
