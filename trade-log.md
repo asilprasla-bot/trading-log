@@ -2979,3 +2979,15 @@ Logged and committed. Summary for this cycle:
 - **ALVO** (only open position, entry $5.28): now $5.235 (-0.85%) — within normal band, no stop-loss or take-profit trigger. Holding.
 - We're in the 2:00–2:55 PM CDT manage-only window, so no new buys were considered regardless of signal quality.
 - Next tick should watch for the 2:55 PM CDT force-sell deadline and liquidate ALVO then if it's still open.
+
+**Trading cycle — 2:28 PM CDT, 2026-08-24**
+
+**BLOCKED: Trading tools unavailable this session.** Checked via ToolSearch for `get_accounts`, `get_portfolio`, `get_equity_positions`, `get_equity_quotes`, `get_index_quotes`, `get_popular_watchlists`, `get_watchlist_items`, `place_equity_order` — none resolved. Same outage pattern as the 1:21 PM CDT cycle today. Cannot verify account state, manage the open ALVO position, or place/close any trades this cycle.
+
+Last known state (2:11 PM CDT): cash $90.94, buying power $86.17, 1 open position ALVO (entry $5.28, then $5.235 / -0.85%), well under the 6% daily circuit breaker.
+
+**Risk note:** we are ~27 minutes from the 2:55 PM CDT force-sell deadline with a position still open. If tools remain down at 2:55 PM, ALVO cannot be liquidated as required. Next tick must retry immediately and force-sell ALVO the moment tools reconnect, regardless of P&L, since the no-overnight-hold rule is a hard constraint.
+
+```
+2:28 PM | HOLD | ALVO | — | — | — | trading tool connection down, cannot manage or force-sell, retry next tick | —
+```
