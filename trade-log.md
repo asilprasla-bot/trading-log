@@ -3013,3 +3013,5 @@ No new buy considered — we're inside the 2:00–2:55 PM CDT manage-only window
 ```
 2:43 PM | SELL | ALVO | ~$5.21 | - | - | early liquidation ahead of 2:55 PM deadline given tool-outage risk; -1.3% vs entry, no stop/profit trigger otherwise | ~$7.90
 ```
+
+**Fill confirmed**: ALVO sell order 6a8c9f2b filled in full at avg $5.2101/share, proceeds $7.898, zero fees. Account 782280879 is now flat (no open equity positions), fully compliant with the 2:55 PM CDT no-overnight-hold deadline with ~10 minutes to spare. Cash will settle to buying power over the next cycle.
