@@ -2886,3 +2886,4 @@ Holding cash, will rescan next tick.
 You've hit your session limit · resets 6pm (UTC)
 You've hit your session limit · resets 6pm (UTC)
 You've hit your session limit · resets 6pm (UTC)
+You've hit your session limit · resets 6pm (UTC)
