@@ -2718,3 +2718,19 @@ Completed this check-in: scanned ~110 tickers, found FWDI as the only real momen
 9:24 AM CDT | SCAN | — | — | — | — | No earnings within 4 days for any of the 4. Scores: FWDI 3/5 (momentum+trend+no-earnings; capped by $426M mkt cap <$500M and red SPY/QQQ). WBTN 3/5 and SCTX 3/5 (trend+mktcap+no-earnings; capped by failed volume gate and red SPY/QQQ). SUJA 2/5 | —
 9:24 AM CDT | HOLD | — | — | — | — | Best candidates (FWDI/WBTN/SCTX) all cap at 3/5 — clears normal-mode bar but falls short of the 4+ required until 9:30 AM CDT window opens. No trade this tick | —
 **9:24 AM CDT tick — HOLD.** Scanned Daily Movers, found FWDI/WBTN/SCTX all scoring 3/5 (best candidates) — clears the normal 3+ bar but falls short of the 4+ required during the current 8:30–9:30 AM CDT high-conviction window (market cap and red SPY/QQQ cost points on all three; WBTN/SCTX/SUJA also failed the 1.5x volume gate this early). No trade. Logged and committed. The 9:30 AM threshold drop to 3+ is only minutes away — worth rescanning shortly to see if these setups still hold.
+
+**Status check (9:44 AM CDT, 2026-08-24):**
+
+Account 782280879: cash $99.17, no open positions. SPY -0.22%, QQQ -1.0% (both red, neither past -2%; now inside the 9:30 AM-2:00 PM CDT normal window, score 3+ required).
+
+Daily Movers scan (OTC/ADR tickers filtered out): WBTN (+10.4%), NNNN (+11.1%, but faded 15.7% off session high — fails near-high momentum), FWDI (+13.0%), SUJA (+11.1%) all pass the $5 floor. Of the momentum-confirmed three (WBTN/FWDI/SUJA), only FWDI clears the 1.5x volume gate (1.97x 30-day avg; WBTN 0.95x, SUJA 0.33x both fail). No earnings within 4 days for any. 5-day trend positive for all three.
+
+FWDI score: momentum confirmed (+1), 5-day trend positive (+1), no earnings (+1), market cap $430M <$500M (0), SPY/QQQ red (0) = **3/5** — clears the normal-window bar for the first time today.
+
+Ran the Step 7 EV check before buying: entry ~$5.81 is already at/above the past week's highs (prior 5 days' highs topped out at $5.50), so there's no resistance below +7% — upside target is capped at +7%. Against the standard 5% stop, that's a 1.4x reward:risk ratio, short of the required 1.5x minimum. Checked 100 Most Popular for alternates (RGTI/IONQ/QBTS/SOUN/RKLB/IREN/LCID/RIVN/NIO/PLUG/SPCE/GME/AMC/TLRY/CGC/SNDL/DJT/COIN/HOOD) — only AMC is up 3%+ (+5.1%) but at $2.68 fails the $5 price floor. No qualifying trade this tick.
+
+```
+9:44 AM | HOLD | -- | -- | -- | -- | FWDI cleared score 3/5 (first to clear normal-window bar) but failed EV check: 1.4x reward:risk (7% cap upside / 5% stop) < 1.5x required | $0
+```
+
+No trade this cycle — EV gate is protecting against chasing a stock already at multi-day highs with no room left before the +7% target. Will rescan next tick.
