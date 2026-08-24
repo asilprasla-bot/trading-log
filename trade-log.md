@@ -2786,3 +2786,10 @@ FWDI EV check: entry ~$5.83, upside to +7% ($6.24) = $0.41/share vs 5% stop ($5.
 ```
 
 No trade this cycle. Will rescan next tick.
+**No trade this tick — holding cash.** Portfolio: $99.17 cash, 0 open positions.
+
+- Market: SPY -0.39%, QQQ -1.14% (both red but under -2%, normal 3+ score threshold applies)
+- Scanned Daily Movers + 100 Most Popular: FWDI (+13.4%, near session high, 2.23x volume) was again the only candidate to clear the score-3 bar, but it failed the Step 7 EV check — upside capped at +7% gives only a 1.40x reward:risk against the required 1.5x
+- Everything else either faded off its session high (BRCC, NSSC, ZURA), failed the volume confirmation gate (ALVO, SUJA), or — across the full 100 Most Popular list — never even hit the 3% momentum threshold today (broad market weakness)
+
+Logged and committed to trade-log.md. This is the same FWDI/EV-fail pattern seen on prior ticks today — will rescan next cycle.
