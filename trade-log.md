@@ -2857,3 +2857,29 @@ Holding cash, will rescan next tick.
 **No trade this cycle — holding.** Cash $94.17 (above $80 floor), 1 of 2 slots used by FWDI (-1.35%, within normal stop band, no action needed).
 
 Scanned Daily Movers: BRCC and ALVO both scored 4/5 on momentum/volume/trend, but neither cleared the 1.5x reward:risk EV gate (BRCC ≈1.4x, ALVO <1x since resistance was too close). NNNN and CAPR were fading off session highs, and SUJA failed the volume confirmation gate (0.62x avg). Logged and committed to trade-log.md.
+
+**Trading cycle — 11:28 AM CDT, 2026-08-24**
+
+**Account 782280879:** Cash $94.17 (above $80 floor), buying power $94.17. 1 of 2 position slots used. SPY -0.11%, QQQ -0.65% — both under 2% down, normal trading conditions (score 3+ required).
+
+**Open position — FWDI:** $5.94 avg cost → $5.92 current, -0.34%. Within <2%-adverse band → hold, no stop triggered. Not up 4%+, no take-profit trigger.
+
+**Scan results (Daily Movers watchlist, ADRs/OTC filtered):**
+| Ticker | Move | Verdict |
+|---|---|---|
+| ALVO | +19.98%, near high (0.3% off), vol 1.98-2.05x avg, mkt cap $2.08B, no earnings <3d, 5d trend positive — scores 4/5 | Fails EV check: no resistance below 52-wk high ($9.25), so target defaults to +7% ($5.687) vs 5% stop ($5.049) — ratio 1.4x, below 1.5x min — skip |
+| NNNN | +14.6% vs prior close but faded 13.0% off session high — fails near-high momentum test — skip |
+| CAPR | +13.75% vs prior close but faded 10.7% off session high (opened 8.01, now 7.16) — fails near-high momentum test — skip |
+| SUJA | +14.7%, near high (1.45% off), but volume only 0.65x 30-day avg — fails 1.5x volume gate — skip |
+| BRCC, INCR | +21-23% — exceed 20% momentum band — skip |
+| GRML, RGNX, REAX, TMS, AIAI, RMAX, RFAI | down on the day — skip |
+| NPWR | +19.4%, near high, but price $2.03 fails $5 price floor — skip |
+
+No candidate cleared both the momentum/volume screen and the Step 7 EV gate. No new buy this cycle.
+
+```
+11:28 AM | HOLD | FWDI | $5.92 | - | - | down 0.34%, within normal stop band | -
+11:28 AM | SKIP | ALVO | $5.315 | 4/5 | 1.4x | EV ratio below 1.5x min, no resistance below +7% target | -
+```
+
+Holding cash, will rescan next tick.
