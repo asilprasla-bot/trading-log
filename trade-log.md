@@ -2916,3 +2916,4 @@ Last known state (from prior cycle, ~1:03 PM CDT): cash $94.17, 0 open positions
 ```
 1:21 PM | HOLD | — | — | — | — | trading tool connection down, no data available, skipping cycle | —
 ```
+This tick was blocked: the Robinhood trading MCP tools weren't reachable in this session (no `get_accounts`, `get_portfolio`, `place_equity_order`, etc. available), matching the auth failures already visible earlier in today's log. I did not fabricate any portfolio or trade data — logged the outage and committed (`7584e43`). Last known good state: cash $94.17, 0 open positions, FWDI stopped out for ~-4.7%, daily loss ~0.25% (well under the 6% circuit breaker). Next tick should retry the tool connection before resuming normal trading steps.
