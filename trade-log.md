@@ -2734,3 +2734,12 @@ Ran the Step 7 EV check before buying: entry ~$5.81 is already at/above the past
 ```
 
 No trade this cycle — EV gate is protecting against chasing a stock already at multi-day highs with no room left before the +7% target. Will rescan next tick.
+**No trade this tick — holding cash.** Portfolio: $99.17 cash, 0 open positions.
+
+Summary:
+- Market: SPY -0.22%, QQQ -1.0% (both red but under -2%, normal 3+ score threshold applies)
+- Scanned Daily Movers + 100 Most Popular: FWDI was the strongest candidate (+13%, near session high, 1.97x volume) and became the first today to clear the normal-window score bar at 3/5
+- It failed the Step 7 EV check though — already at a 5-day high, so upside caps at +7% with no closer resistance, giving only a 1.4x reward:risk against the required 1.5x
+- Everything else either failed the volume gate (WBTN, SUJA), faded off its high (NNNN), or was under the $5 price floor (AMC +5.1% but at $2.68)
+
+Logged and committed to trade-log.md. Will rescan on the next tick.
