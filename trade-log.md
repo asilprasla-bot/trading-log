@@ -2764,3 +2764,25 @@ No trade this cycle. Will rescan next tick.
 **No trade this tick — holding cash.** Portfolio: $99.17 cash, 0 open positions, SPY -0.29%/QQQ -1.09% (both red but under -2%).
 
 Scanned Daily Movers + 100 Most Popular. FWDI was the only candidate to score 3/5 (clearing the normal-window bar) but failed the Step 7 EV check — it's trading above its entire 5-day high range, capping upside at +7% for only a 1.4x reward:risk against the required 1.5x. NSSC was disqualified (earnings today + faded 16% off high), NNNN faded off its high, and SUJA failed the volume confirmation gate. Logged and committed. Will rescan next tick.
+
+**Status check (10:17 AM CDT, 2026-08-24):**
+
+Account 782280879: cash $99.17, no open positions. SPY -0.39% ($762.75 vs $765.72), QQQ -1.14% ($705.30 vs $713.44) — both red, neither past -2%; normal 9:30 AM–2:00 PM CDT window, score 3+ required.
+
+Daily Movers scan (OTC/ADR tickers filtered out): BRCC (+15.1%), ALVO (+17.8%), NSSC (+10.3%), ZURA (+9.1%), FWDI (+13.4%), SUJA (+13.4%) passed the initial momentum range and $5 price floor.
+- BRCC: faded 3.7% off session high — fails near-high test.
+- ALVO: near high (0.3% off) but volume only 1.12x 30-day avg — fails 1.5x gate.
+- NSSC: reported earnings this morning (beat) and faded 18.8% off today's high — disqualified.
+- ZURA: faded 9.6% off session high — fails near-high test.
+- SUJA: near high (0.8% off) but volume only 0.43x 30-day avg — fails 1.5x gate.
+- FWDI: momentum confirmed (1.8% off high, vol 2.23x avg), 5-day trend strongly positive ($4.28→$5.83), no earnings within 4 days → scores 3/5 (capped by $431M mkt cap <$500M and red SPY/QQQ).
+
+FWDI EV check: entry ~$5.83, upside to +7% ($6.24) = $0.41/share vs 5% stop ($5.54) = $0.29/share risk → 1.40x reward:risk, below the 1.5x minimum required. Skipped.
+
+100 Most Popular (73 non-ETF tickers scanned): none up 3%+ today — broadest gainer was V (+2.85%), below the momentum threshold. No alternates.
+
+```
+10:17 AM | HOLD | -- | -- | -- | -- | FWDI only candidate to clear score 3/5 but failed EV check (1.40x < 1.5x); BRCC/ZURA/NSSC faded off highs, ALVO/SUJA failed volume gate | $0
+```
+
+No trade this cycle. Will rescan next tick.
