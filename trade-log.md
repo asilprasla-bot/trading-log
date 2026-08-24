@@ -2906,3 +2906,13 @@ FWDI was down 4.63% from entry ($5.94 → $5.665), breaching the ">4% adverse mo
 - **ALVO** — passed momentum, volume (2.55x avg), market cap ($2B), no earnings risk (score 4/5). But EV check failed: no resistance/support close enough to beat the 1.5x reward:risk minimum (7% target / 5% stop = 1.4x). Skipped per the hard EV gate.
 
 **No new buy placed today.** Currently 0 open positions, cash $94.17 (well above the $80 floor), daily loss so far ~$0.24 (~0.25% of capital, nowhere near the 6% circuit breaker). I'll continue watching for a new setup that clears the EV bar before the 2:55 PM CDT force-sell cutoff.
+
+**Trading cycle — 1:21 PM CDT, 2026-08-24**
+
+**BLOCKED: Trading tools unavailable this session.** get_accounts/get_portfolio/get_equity_quotes/place_equity_order etc. are not connected (not present in standard or deferred tool registry this session) — consistent with earlier "Not logged in" / "OAuth session expired" errors in today's log. Cannot verify account state or place/manage any trades this cycle. No action taken (fail-safe: no fabricated data, no blind trades).
+
+Last known state (from prior cycle, ~1:03 PM CDT): cash $94.17, 0 open positions (FWDI stopped out for ~-4.7%), daily loss ~0.25% of capital — well under the 6% circuit breaker.
+
+```
+1:21 PM | HOLD | — | — | — | — | trading tool connection down, no data available, skipping cycle | —
+```
