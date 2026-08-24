@@ -2694,4 +2694,20 @@ Full scan (Daily Movers + 100 Most Popular, ~110 tickers) found 3 that cleared t
 ```
 
 Will re-scan after 9:30 AM CDT when the bar drops to 3+ (FWDI would qualify if momentum holds), or sooner if a 4+ setup appears.
+
+**Status check (9:06 AM CDT, 2026-08-24):**
+
+Account 782280879: cash $99.17, no open positions. SPY -0.37%, QQQ -1.39% (both red, neither past -2%; still inside the 8:30-9:30 AM CDT high-conviction window requiring score 4+).
+
+Daily Movers scan (price/momentum filtered): CLF (+6.2%), NSSC (+7.1%), VITL (+7.7%), SUJA (+7.4%) cleared the 3-20%/$5-floor screen.
+- NSSC: disqualified — earnings reported this morning (0 days), and faded 21% off session high.
+- CLF, VITL, SUJA: all near session high (1-3% off, pass), but volume only 0.13-0.33x the 20-day average — fail the 1.5x volume confirmation gate (only ~35 min into the session, too early for real accumulation).
+
+100 Most Popular scan (~85 tickers): only DIS cleared momentum (+3.7%, 0.1% off session high) — but volume is 0.38x average, fails the same gate. All other names were flat/red or sub-$5.
+
+```
+9:06 AM | HOLD | -- | -- | -- | -- | CLF/VITL/SUJA/DIS pass momentum+near-high but fail 1.5x volume gate; NSSC disqualified (earnings today + faded 21% off high) | $0
+```
+
+No trade this cycle — volume confirmation is a hard gate and nothing has real accumulation yet this early. Will rescan next tick.
 Completed this check-in: scanned ~110 tickers, found FWDI as the only real momentum candidate (3/5 score) but it falls short of the 4+ required during the current 8:30-9:30 AM high-conviction window — NSSC and CAPR were both disqualified after already fading hard off their session highs. No trade this tick; logged HOLD and committed to trade-log.md.
