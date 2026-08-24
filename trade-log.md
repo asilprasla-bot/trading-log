@@ -2641,3 +2641,15 @@ Neither at take-profit (both down). Force-sell deadline (2:55 PM CDT) is ~14 min
 
 **2:41 PM CDT check complete — HOLD, no action taken.** Scheduling a wakeup for 2:55 PM CDT to execute mandatory force-sell of both positions.
 **2:41 PM CDT tick complete — HOLD.** Both positions (HOOD -1.52%, COIN -2.12%) remain within normal stop-loss tolerance, no take-profit triggers, and the account is maxed at 2 positions with cash at the $80 floor, so no new buys. Logged to trade-log.md and committed. Scheduled a wakeup for the mandatory 2:55 PM CDT force-sell of both positions.
+
+2:57 PM CDT | SELL | HOOD | $107.8701 | FORCE-SELL | — | Mandatory 2:55 PM CDT force-sell, no overnight holds | proceeds $9.89
+2:57 PM CDT | SELL | COIN | $186.486 | FORCE-SELL | — | Mandatory 2:55 PM CDT force-sell, no overnight holds | proceeds $8.86
+
+Force-sell executed (a couple minutes late due to a max-turns interruption on the prior tick, but both positions confirmed closed same-day via get_equity_orders — no overnight hold occurred). Day ended flat, cash back to ~$99.
+
+---
+
+**TRADING LOG — 2026-08-24**
+
+8:00 AM CDT | CHECK | — | — | — | — | Account 782280879 active, $99.17 settled cash (no unsettled funds), 0 open positions (weekend gap confirmed no overnight hold). SPY -0.17%, QQQ -0.62% pre-market (both red but under 2%, normal mode) | —
+8:00 AM CDT | HOLD | — | — | — | — | Pre-market window (8:00-8:30 AM CDT) — observe only per timing rules, no buys until market open. Will scan once normal trading window begins | —
