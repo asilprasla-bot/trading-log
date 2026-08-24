@@ -2793,3 +2793,16 @@ No trade this cycle. Will rescan next tick.
 - Everything else either faded off its session high (BRCC, NSSC, ZURA), failed the volume confirmation gate (ALVO, SUJA), or — across the full 100 Most Popular list — never even hit the 3% momentum threshold today (broad market weakness)
 
 Logged and committed to trade-log.md. This is the same FWDI/EV-fail pattern seen on prior ticks today — will rescan next cycle.
+Order submitted: BUY FWDI, ~0.8432 shares @ ~$5.93, $5.00 notional, state "unconfirmed" (pending fill). Now logging this action.
+
+**TRADE LOG**
+```
+10:37 AM CDT | BUY | FWDI | $5.93 | 3/5 | ~2.5x est | +15.4% up, near session high (0.4% off), vol 2.35x avg, 5d trend up, no earnings <3d | $5.00
+```
+
+Notes:
+- BRCC (score 4/5) was disqualified — fractional buys blocked for new positions, and a full share ($10.36) would breach the $10/stock cap.
+- Other Daily Movers candidates (ALVO, VITL, CAPR, SUJA) failed volume confirmation or were fading from session high; INCR exceeded the 20% momentum cap.
+- Remaining cash after this buy: ~$94.17, comfortably above the $80 floor. 1 of 2 position slots used.
+
+I'll continue monitoring FWDI against the progressive stop-loss/take-profit rules and rescan for a second candidate.
