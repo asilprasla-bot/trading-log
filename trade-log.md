@@ -2694,3 +2694,4 @@ Full scan (Daily Movers + 100 Most Popular, ~110 tickers) found 3 that cleared t
 ```
 
 Will re-scan after 9:30 AM CDT when the bar drops to 3+ (FWDI would qualify if momentum holds), or sooner if a 4+ setup appears.
+Completed this check-in: scanned ~110 tickers, found FWDI as the only real momentum candidate (3/5 score) but it falls short of the 4+ required during the current 8:30-9:30 AM high-conviction window — NSSC and CAPR were both disqualified after already fading hard off their session highs. No trade this tick; logged HOLD and committed to trade-log.md.
