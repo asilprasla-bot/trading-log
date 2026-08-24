@@ -2884,3 +2884,4 @@ No candidate cleared both the momentum/volume screen and the Step 7 EV gate. No 
 
 Holding cash, will rescan next tick.
 You've hit your session limit · resets 6pm (UTC)
+You've hit your session limit · resets 6pm (UTC)
