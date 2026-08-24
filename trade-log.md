@@ -2711,3 +2711,9 @@ Daily Movers scan (price/momentum filtered): CLF (+6.2%), NSSC (+7.1%), VITL (+7
 
 No trade this cycle — volume confirmation is a hard gate and nothing has real accumulation yet this early. Will rescan next tick.
 Completed this check-in: scanned ~110 tickers, found FWDI as the only real momentum candidate (3/5 score) but it falls short of the 4+ required during the current 8:30-9:30 AM high-conviction window — NSSC and CAPR were both disqualified after already fading hard off their session highs. No trade this tick; logged HOLD and committed to trade-log.md.
+
+9:24 AM CDT | CHECK | — | — | — | — | Portfolio $99.17 cash, 0 open positions. SPY -0.34%, QQQ -1.30% (red, neither past -2%; still inside 8:30-9:30 AM CDT high-conviction window requiring score 4+) | —
+9:24 AM CDT | SCAN | — | — | — | — | Daily Movers: WBTN (+11.5%), SCTX (+10.4%), FWDI (+12.2%), SUJA (+12.2%) all pass momentum (3-20%, near session high) and $5+ price floor after filtering OTC/ADR tickers (THKLY/PTXKY/NDVLY/PZCUY/DLNDY/TUWOY) | —
+9:24 AM CDT | SCAN | — | — | — | — | Volume check: FWDI 1.59x 30d avg (passes). WBTN 0.86x, SCTX 0.61x, SUJA 0.30x — all fail 1.5x gate this early (~1hr into session) | —
+9:24 AM CDT | SCAN | — | — | — | — | No earnings within 4 days for any of the 4. Scores: FWDI 3/5 (momentum+trend+no-earnings; capped by $426M mkt cap <$500M and red SPY/QQQ). WBTN 3/5 and SCTX 3/5 (trend+mktcap+no-earnings; capped by failed volume gate and red SPY/QQQ). SUJA 2/5 | —
+9:24 AM CDT | HOLD | — | — | — | — | Best candidates (FWDI/WBTN/SCTX) all cap at 3/5 — clears normal-mode bar but falls short of the 4+ required until 9:30 AM CDT window opens. No trade this tick | —
