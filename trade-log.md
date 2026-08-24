@@ -2761,3 +2761,6 @@ Daily Movers scan (OTC/ADR filtered): NSSC (+13.7%), NNNN (+12.2%), FWDI (+13.9%
 ```
 
 No trade this cycle. Will rescan next tick.
+**No trade this tick — holding cash.** Portfolio: $99.17 cash, 0 open positions, SPY -0.29%/QQQ -1.09% (both red but under -2%).
+
+Scanned Daily Movers + 100 Most Popular. FWDI was the only candidate to score 3/5 (clearing the normal-window bar) but failed the Step 7 EV check — it's trading above its entire 5-day high range, capping upside at +7% for only a 1.4x reward:risk against the required 1.5x. NSSC was disqualified (earnings today + faded 16% off high), NNNN faded off its high, and SUJA failed the volume confirmation gate. Logged and committed. Will rescan next tick.
